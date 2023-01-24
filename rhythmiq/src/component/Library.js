@@ -8,7 +8,7 @@ const Library = ({songs, categories}) => {
       <div className="container ">
         <div className="row g-3">
 
-          <SongItem/>
+          {songs.map(song=><SongItem key={song.id} song={song}/>)}
 
 
           </div>
