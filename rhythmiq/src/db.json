@@ -1,12 +1,86 @@
 {
     "song":[
         {
-            "id":1,
-            "name": "Praise God",
-            "artist": "Kanye West",
-            "poster": ".jpeg",
-            "category": "hiphop",
+            "id":"1",
+            "name": "I Hate U",
+            "artist": "SZA",
+            "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/f6/4f/19/f64f19b7-3ab4-ad2d-5a67-ca196d278b44/886449787043.jpg/316x316bb.webp",
+            "category": "RnB",
+            "mp3":".mp3"
+        },
+        {
+            "id":"2",
+            "name": "Fire & Desire",
+            "artist": "Drake",
+            "poster": "https://t2.genius.com/unsafe/295x295/https%3A%2F%2Fimages.genius.com%2F04ca8f6cc29d2ddde9e6756b92488a6f.1000x1000x1.jpg",
+            "category": "RnB",
+            "mp3":".mp3"
+        },
+        {
+            "id":"3",
+            "name": "Under The Influence",
+            "artist": "Chris Brown",
+            "poster": "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/96/1b/c9/961bc949-7e03-2670-f612-72c34ece6a22/886447924464.jpg/316x316bb.webp",
+            "category": "RnB",
+            "mp3":".mp3"
+        },
+        {
+            "id":"4",
+            "name": "Out of Time",
+            "artist": "The Weekend",
+            "poster": "https://is2-ssl.mzstatic.com/image/thumb/Video126/v4/bd/47/c8/bd47c8df-88aa-e56b-da25-f3eca7eb9e7f/Jobd24bacb4-0d6b-4de7-bea7-737e0c071112-131636306-PreviewImage_preview_image_nonvideo_sdr-Time1652031518583.png/316x316bb.webp",
+            "category": "RnB",
+            "mp3":".mp3"
+        },
+        {
+            "id":"5",
+            "name": "Heartbreak Anniversary",
+            "artist": "Giveon",
+            "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fd725e94ee1e486f1ecd83b46a61dff6c.1000x1000x1.png",
+            "category": "RnB",
+            "mp3":".mp3"
+        },
+        {
+            "id":"6",
+            "name": "Out the way",
+            "artist": "Yeat",
+            "poster": "https://t2.genius.com/unsafe/281x281/https%3A%2F%2Fimages.genius.com%2F7ef45be53db637c95430535c471188a9.1000x1000x1.jpg",
+            "category": "trap",
+            "mp3":".mp3"
+        },
+        {
+            "id":"7",
+            "name": "Magnolia",
+            "artist": "Playboi Carti",
+            "poster": "https://t2.genius.com/unsafe/324x324/https%3A%2F%2Fimages.genius.com%2Fcbe7d40e5f814ff27f232fe7ed3b2120.1000x1000x1.png",
+            "category": "trap",
+            "mp3":".mp3"
+        },
+        {
+            "id":"8",
+            "name": "Just Wanna Rock",
+            "artist": "Lil Uzi Vert",
+            "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fa1660b86498e7f462f2e0546191cb5d6.1000x1000x1.png",
+            "category": "trap",
+            "mp3":".mp3"
+        },
+        {
+            "id":"9",
+            "name": "Surround Sound",
+            "artist": "J.I.D",
+            "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/cf/73/dc/cf73dc77-d33e-0b52-9a70-75f91c1eae09/22UMGIM84207.rgb.jpg/316x316bb.webp",
+            "category": "trap",
+            "mp3":".mp3"
+        },
+        {
+            "id":"10",
+            "name": "Lemon Pepper Freestyle",
+            "artist": "Drake",
+            "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F92fe61edad0376f8f51e5f839be31465.1000x1000x1.png",
+            "category": "trap",
             "mp3":".mp3"
         }
     ]
+
 }
+
