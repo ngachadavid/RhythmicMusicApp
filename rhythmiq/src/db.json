@@ -80,6 +80,87 @@
             "category": "trap",
             "mp3":".mp3"
         },
+          
+        {
+          "id":"11",
+          "name": "Last Last",
+          "artist": "Burna Boy",
+          "poster": "https://i1.sndcdn.com/artworks-eLhbcvGEyCjo7mtY-tZS7NA-t500x500.jpg",
+          "category": "Afro Beats",
+         "mp3":".mp3"
+        },
+        {      
+        "id":"12",
+        "name": "Rush",
+        "artist": "Ayra Starr",
+        "poster": "https://mp3sauce.com/wp-content/uploads/2022/09/Ayra-Starr.jpg",
+        "category": "Afro Beats",
+        "mp3":".mp3"
+        },  
+        {
+        "id":"13",
+        "name": "Soweto",
+        "artist": "Victory, Tempore",
+        "poster": "https://source.boomplaymusic.com/group10/M00/01/13/bbc404eacf324a899fac11e2089361cc_464_464.jpg",
+        "category": "Afro Beats",
+        "mp3":".mp3"
+        },
+        {
+        "id":"14",
+        "name": "Monalisa",
+        "artist": "Lojay, Sarz, Chris Brown",
+        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F6343301acc310b5e8bc6fe38253ebc9d.1000x1000x1.jpg",
+        "category": "Afro Beats",
+        "mp3":".mp3"
+        },
+        {
+        "id":"15",
+        "name": "Loaded",
+        "artist": "Tiwa Savage, Asake",
+        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F24fcea016af867b69e5b9f0b3332979a.600x600x1.jpg",
+        "category": "Afro Beats",
+        "mp3":".mp3"
+        },
+        {
+        "id":"16",
+        "name": "Diamond",
+        "artist": "Rihanna",
+        "poster": "https://t2.genius.com/unsafe/292x292/https%3A%2F%2Fimages.genius.com%2Fd31652f8a9f5ae2afc54525cff56b883.1000x1000x1.jpg",
+        "category": "Pop",
+        "mp3":".mp3"
+        },
+        {
+        "id":"17",
+        "name": "Shape of You",
+        "artist": "Ed Sheeran",
+        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F86dcab92e27599f8556b5b8f21932449.1000x1000x1.png",
+        "category": "Pop",
+        "mp3":".mp3"
+        },
+        {
+        "id":"18",
+        "name": "Wake Me Up",
+        "artist": "Avicii",
+        "poster": "https://t2.genius.com/unsafe/291x291/https%3A%2F%2Fimages.genius.com%2F458e6b68cac89d7f94a082f21fddf25c.1000x1000x1.png",
+        "category": "Pop",
+        "mp3":".mp3"
+        },
+        {
+        "id":"19",
+        "name": "Dance Monkey",
+        "artist": "Tones And I",
+        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fede1aee3ff875d14a591481f3cee0459.1000x1000x1.png",
+        "category": "Pop",
+        "mp3":".mp3"
+        },
+        {
+        "id":"20",
+        "name": "One More Night",
+        "artist": "Marron 5",
+        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F8ebc028058966ab7b4ebcd511ed0bada.953x953x1.jpg",
+        "category": "Pop",
+        "mp3":".mp3"
+        },
         {
             "id":21,
             "name": "Ten Feet Tall",
