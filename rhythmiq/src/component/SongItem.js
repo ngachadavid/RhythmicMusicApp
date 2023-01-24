@@ -6,7 +6,7 @@ const SongItem = ({song}) => {
   return (
     <>
     <div className="col-md">
-            <div className="card" style={{width: '10rem'}}>
+            <div className="card" style={{width: '10rem', cursor:"pointer", height:'10%'}}>
               <img className="card-img-top"
                 src={poster} alt="Card image cap"/>
               <div className="card-body bg-dark">
