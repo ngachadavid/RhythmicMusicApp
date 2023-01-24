@@ -80,7 +80,6 @@
             "category": "trap",
             "mp3":".mp3"
         },
-          
         {
           "id":"11",
           "name": "Last Last",
@@ -89,14 +88,14 @@
           "category": "Afro Beats",
          "mp3":".mp3"
         },
-        {      
+        {
         "id":"12",
         "name": "Rush",
         "artist": "Ayra Starr",
         "poster": "https://mp3sauce.com/wp-content/uploads/2022/09/Ayra-Starr.jpg",
         "category": "Afro Beats",
         "mp3":".mp3"
-        },  
+        },
         {
         "id":"13",
         "name": "Soweto",
