@@ -1,0 +1,12 @@
+{
+    "song":[
+        {
+            "id":1,
+            "name": "Praise God",
+            "artist": "Kanye West",
+            "poster": ".jpeg",
+            "category": "hiphop",
+            "mp3":".mp3"
+        }
+    ]
+}
