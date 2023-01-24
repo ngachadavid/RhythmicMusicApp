@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <>Rhythmiq</>
+      <h1>Hey guys, ebu tuanze</h1>
 
     </div>
   );
