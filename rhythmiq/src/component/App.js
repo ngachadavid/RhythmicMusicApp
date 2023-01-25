@@ -13,13 +13,9 @@ const [songs, setSongs]=useState([])
   console.log(songs)
   return (
     <div className="App">
-Njiru
-      <h1></h1>
-
-
+      {/* <h1></h1> */}
+      <Home/>
       <Library songs={songs}/>
-      
-
     </div>
   );
 }

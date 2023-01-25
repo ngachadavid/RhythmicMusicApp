@@ -15,7 +15,7 @@ const Home = () => {
     <Navbar/>
     <div className="home">
       <div className='text-light'>
-        <h3 className="py-3 ms-3">Focus</h3>
+        <h5 className="py-3 ms-3">Rhythmiq Genres</h5>
         <div className="container ">
           <div className="row g-3">
 
