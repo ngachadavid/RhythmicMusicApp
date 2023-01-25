@@ -2,7 +2,7 @@ import React from 'react'
 
 const SongItem = ({song}) => {
   const {id, name, poster, artist}=song
-  
+
   return (
     <>
     <div className="col-md">
