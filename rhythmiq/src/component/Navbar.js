@@ -30,6 +30,10 @@ const Navbar = () => {
           <i className="bi bi-balloon-heart-fill"></i>
           <Link to='/liked-songs'>Liked Songs</Link>
         </li>
+        <li>
+          <i className="bi bi-balloon-heart-fill"></i>
+          <Link to='/player'>Player</Link>
+        </li>
       </ul>
     </nav>
   )

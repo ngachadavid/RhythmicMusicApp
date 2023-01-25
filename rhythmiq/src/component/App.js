@@ -17,11 +17,12 @@ const [songs, setSongs]=useState([])
   return (
     <div className="App">
       <Navbar/>
-      <h1></h1>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/library' element={<Library songs={songs}/>}></Route>
         <Route path='/playlist' element={<Playlist songs={songs} />}></Route>
+        <Route path='/player' element={<h2>put the player component here, player</h2>}></Route>
+        <Route path='/search' element={<h2>put the search component here, search</h2>}></Route>
       </Routes>
 
 
