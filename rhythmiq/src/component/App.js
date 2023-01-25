@@ -14,7 +14,7 @@ const [songs, setSongs]=useState([])
   return (
     <div className="App">
 
-      {/* <Library songs={songs}/> */}
+      <Library songs={songs}/>
       <Playlist songs={songs} />
     
 
