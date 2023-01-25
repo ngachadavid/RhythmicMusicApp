@@ -10,7 +10,7 @@ const [songs, setSongs]=useState([])
     fetch('http://localhost:3000/song').then(res=>res.json())
     .then(songs=>setSongs(songs))
   }, [])
-  console.log(songs)
+  
   return (
     <div className="App">
       <h1></h1>
