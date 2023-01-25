@@ -29,6 +29,12 @@ margin: 2rem 0;
   font-weight: bold;
   
 }
+.navposition ul li a:hover {
+ 
+  color: rgb(211, 177, 28);
+ 
+
+}
 .navposition ul li .bi{
   margin-right: 0.6rem;
   font-size: 1.4rem;
@@ -45,20 +51,17 @@ nav>div i{
   font-size: 2rem;
   color: white;
 }
-.home{
+.elementp{
   min-height: 100vh;
-  background-color: rgb(24, 25, 27);
+  
   width: 80%;
   margin-left: 20%;
   
 }
-.library {
-  min-height: 100vh;
+.theme-bg{
   background-color: rgb(24, 25, 27);
-  width: 80%;
-  margin-left: 20%;
-
 }
+
 .cardSize{
   width: 15rem;
 }
@@ -74,16 +77,11 @@ nav>div i{
     
     margin-left: 1rem;
   }
-  .home {
+  .elementp{
     
     width: 70%;
     margin-left: 30%;
 
   }
-  .library {
-
-    width: 70%;
-    margin-left: 30%;
-
-  }
+ 
 }

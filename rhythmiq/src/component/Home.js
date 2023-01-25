@@ -8,12 +8,12 @@ const Home = () => {
     fetch('http://localhost:3000/genres').then(res=>res.json())
     .then(categories=>setGenres(categories))
   }, [])
-  // console.log(genres)
+  console.log(genres)
 
   return (
     <div className="body-position">
     
-    <div className="home">
+    <div className="elementp theme-bg">
       <div className='text-light'>
         <h5 className="py-3 ms-3">Rhythmiq Genres</h5>
         <div className="container ">
