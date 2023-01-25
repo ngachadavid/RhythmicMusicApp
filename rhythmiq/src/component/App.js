@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import Library from "./Library";
+
 import Search from "./Search";
+
+import Playlist from "./PlayList";
+
 
 
 function App() {
@@ -18,7 +22,11 @@ const [songs, setSongs]=useState([])
 
 
       <Library songs={songs}/>
+
       <Search songs={songs}/>
+
+      <Playlist songs={songs} />
+
       
 
     </div>
