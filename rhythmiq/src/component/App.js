@@ -13,9 +13,9 @@ const [songs, setSongs]=useState([])
   console.log(songs)
   return (
     <div className="App">
-      <Home/>
+      
 
-      {/* <Library songs={songs}/> */}
+      <Library songs={songs}/>
 
     </div>
   );
