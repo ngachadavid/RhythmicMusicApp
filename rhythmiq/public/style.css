@@ -46,32 +46,44 @@ nav>div i{
   color: white;
 }
 .home{
-  height: 100vh;
+  min-height: 100vh;
   background-color: rgb(24, 25, 27);
   width: 80%;
   margin-left: 20%;
   
 }
+.library {
+  min-height: 100vh;
+  background-color: rgb(24, 25, 27);
+  width: 80%;
+  margin-left: 20%;
+
+}
 .cardSize{
   width: 15rem;
 }
 @media (max-width:68rem){
-  .navposition {
-      
-      width: 30%;
-      
-    }
-    nav>div {
-      
-      flex-direction: column;
-      
-      margin-left: 1rem;
-    }
-        .home {
-          height: 100vh;
-          background-color: rgb(24, 25, 27);
-          width: 70%;
-          margin-left: 30%;
+.navposition {
     
-        }
+    width: 30%;
+    
+  }
+  nav>div {
+    
+    flex-direction: column;
+    
+    margin-left: 1rem;
+  }
+  .home {
+    
+    width: 70%;
+    margin-left: 30%;
+
+  }
+  .library {
+
+    width: 70%;
+    margin-left: 30%;
+
+  }
 }

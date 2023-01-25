@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import Navbar from './Navbar'
+
 import GenreCardH from './GenreCardH'
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <div className="body-position">
-    <Navbar/>
+    
     <div className="home">
       <div className='text-light'>
         <h5 className="py-3 ms-3">Rhythmiq Genres</h5>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Library from "./Library";
 import Playlist from "./PlayList";
 import Home from "./Home";
+import Navbar from "./Navbar";
 
 
 function App() {
@@ -14,6 +15,7 @@ const [songs, setSongs]=useState([])
   console.log(songs)
   return (
     <div className="App">
+      <Navbar/>
 
       <h1></h1>
 
