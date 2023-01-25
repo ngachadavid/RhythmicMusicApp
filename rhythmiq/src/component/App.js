@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Library from "./Library";
+import Home from "./Home";
 
 
 function App() {
@@ -12,8 +13,9 @@ const [songs, setSongs]=useState([])
   console.log(songs)
   return (
     <div className="App">
+      <Home/>
 
-      <Library songs={songs}/>
+      {/* <Library songs={songs}/> */}
 
     </div>
   );
