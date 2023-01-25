@@ -54,7 +54,6 @@ nav>div i{
 }
 .cardSize{
   width: 15rem;
-  height: 10rem;
 }
 @media (max-width:68rem){
   .navposition {

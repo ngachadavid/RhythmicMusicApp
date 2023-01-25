@@ -248,7 +248,7 @@
             "category": "Rock",
             "mp3":""
         },
- {
+        {
             "id":32,
             "name": "Rapture",
             "artist": "Rival sons",
@@ -319,9 +319,36 @@
             "category": "Rock",
             "mp3":""
         }
-  
- 
-        
+    ],
+    "genres":[
+        {
+            "genre":"Pop",
+            "poster":"https://img.freepik.com/premium-vector/pop-music-vintage-3d-vector-lettering-retro-bold-font-typeface-pop-art-stylized-text-old-school-style-letters-numbers-symbols-elements-pack-90s-80s-poster-banner-pine-color-background_106317-21305.jpg?w=740"
+        },
+        {
+            "genre":"Country",
+            "poster":"https://media.istockphoto.com/id/1199975287/vector/country-music-sign-cowboy-hat-with-country-music-lettering-on-black-background.jpg?s=612x612&w=0&k=20&c=4r2p2VhTBgZVXdPqil19Nx5gI0YIWzpFFg_oLYI9lE4="
+        },
+        {
+            "genre":"Rock",
+            "poster":"https://media.istockphoto.com/id/958707426/vector/monochrome-antique-hipster-vintage-label-badge-crest-rock-and-roll-for-flyer-poster-logo-or-t.jpg?s=612x612&w=0&k=20&c=XYrvSRZxv5bQvHunItrILis7hyZQPbSNXQmtHvaTKZU="
+        },
+        {
+            "genre":"RnB",
+            "poster":"https://media.istockphoto.com/id/1203264140/vector/rhythm-and-blues-vintage-3d-vector-lettering-retro-bold-font-typeface-pop-art-stylized-text.jpg?s=612x612&w=0&k=20&c=Ap-KXJxUyR4APJE5rnvF9DlpGIM9L1TCXRLf-wYtCn4="
+        },
+        {
+            "genre":"trap",
+            "poster":"https://i0.wp.com/www.six9ja.com/wp-content/uploads/2021/10/DJ-YK-%E2%80%93-Trap-Lanje-Beat.jpeg?fit=700%2C700&ssl=1"
+        },
+        {
+            "genre":"Afro Beats",
+            "poster":"https://flutymusic.com/wp-content/uploads/2020/02/afro-beats.jpg"
+        },
+        {
+            "genre":"Progressive House",
+            "poster":"https://ms.bestservice.com/w09/img_500x500/00004709.webp"
+        }
     ]
 
 }
