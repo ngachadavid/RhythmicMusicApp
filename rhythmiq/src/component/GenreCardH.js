@@ -4,7 +4,7 @@ const GenreCardH = ({category}) => {
   const {genre, poster}= category
   
   return (
-    <div className="col-md">
+    <div className="col col-md-6 col-lg-3">
               <div className="card bg-dark" style={{width: "12rem", height:"12%", cursor:"pointer"}}  >
                 <img className="card-img-top" src={poster} alt="Card image cap" />
                 <div className="card-body bg-dark">
