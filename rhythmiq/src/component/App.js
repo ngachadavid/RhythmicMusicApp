@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Library from "./Library";
-import Home from "./Home";
 
 
 function App() {
@@ -16,6 +15,8 @@ const [songs, setSongs]=useState([])
       <h1></h1>
       <Home/>
       <Library songs={songs}/>
+      
+
     </div>
   );
 }
