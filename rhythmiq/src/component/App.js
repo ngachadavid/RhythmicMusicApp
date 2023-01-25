@@ -13,13 +13,12 @@ const [songs, setSongs]=useState([])
   console.log(songs)
   return (
     <div className="App">
-      
 Njiru
       <h1></h1>
 
 
       <Library songs={songs}/>
- main
+      
 
     </div>
   );
