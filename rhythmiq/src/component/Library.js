@@ -1,7 +1,7 @@
 import React from 'react'
 import SongItem from './SongItem'
 
-const Library = ({songs, categories}) => {
+const Library = ({songs}) => {
   return (
     <div className='bg-secondary text-light text-center'>
       <h3 className="py-3">Browse From our Collection</h3>
