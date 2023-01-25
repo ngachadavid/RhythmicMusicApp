@@ -1,21 +1,23 @@
-// import React from "react";
+import React from "react";
+// import './Search.css'
 
-// function Search({search, setSearch}) {
-//   function handleSearch(event){
-//     setSearch(event.target.value)
-//   } 
+function Search({search, setSearch}) {
+  function handleSearch(event){
+    setSearch(event.target.value)
+  } 
 
-//   return (
-//     <div className="ui large fluid icon input">
-//       <input
-//         type="text"
-//         placeholder="Search your Recent Songs     "
-//         value={search}
-//         onChange={handleSearch}
-//       />
-//       <i className="circular search link icon"></i>
-//     </div>
-//   );
-// }
+  return (
+    <div className="ui large fluid icon input">
+      <input
+        type="text"
+        placeholder="Search your Songs"
+        value={search}
+        onChange={handleSearch}
+      />
+      <i className="circular search link icon"></i>
+    </div>
+  );
+}
 
-// export default Search;
+export default Search;
+
