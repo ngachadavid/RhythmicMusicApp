@@ -10,7 +10,7 @@ const [songs, setSongs]=useState([])
   console.log(songs)
   return (
     <div className="App">
-      <h1>Hey guys, ebu tuanze</h1>
+      <h1></h1>
 
     </div>
   );
