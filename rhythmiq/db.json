@@ -239,7 +239,89 @@
             "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2Fdb5239c900df3f7ecd597baf351552f9.492x492x1.jpg",
             "category": "Country",
             "mp3":""
+        },
+        {
+            "id":31,
+            "name": "Patience ",
+            "artist": "Guns N Roses",
+            "poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGuns_N%2527_Roses&psig=AOvVaw1Ty7pALZoUgkwCox2UGrah&ust=1674708864450000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCMjH5-v24fwCFQAAAAAdAAAAABAD",
+            "category": "Rock",
+            "mp3":""
+        },
+ {
+            "id":32,
+            "name": "Rapture",
+            "artist": "Rival sons",
+            "poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.last.fm%2Fmusic%2FRival%2BSons&psig=AOvVaw2oTHk5g-GkgrgJXQKOjZ0T&ust=1674709185127000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNCk_4T44fwCFQAAAAAdAAAAABAD",
+            "category": "Rock",
+            "mp3":""
+        },
+        {
+            "id":33,
+            "name": "infinity",
+            "artist": "james young",
+            "poster": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.scdn.co%2Fimage%2Fab67616d0000b273a9897f65d1ead1be10a51e3f&imgrefurl=https%3A%2F%2Fopen.spotify.com%2Falbum%2F6MuWCR3WPjwyKhqsTKLZ3z&tbnid=3UBUArB9ngWmOM&vet=12ahUKEwir6OK_-OH8AhWdmicCHYr6ATgQMygEegUIARDiAQ..i&docid=WZJlhpY92NVz_M&w=640&h=640&q=jaymes%20young&ved=2ahUKEwir6OK_-OH8AhWdmicCHYr6ATgQMygEegUIARDiAQ",
+            "category": "Rock",
+            "mp3":""
+        },
+        {
+            "id":34,
+            "name": "Fading like a picture",
+            "artist": "DMA",
+            "poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D47vxLNrFRb8&psig=AOvVaw04LIVg6CaJrQoaE7tIWzxh&ust=1674709461167000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCID4w4r54fwCFQAAAAAdAAAAABAD",
+            "category": "Rock",
+            "mp3":""
+        },
+        {
+            "id":35,
+            "name": "Happiest year",
+            "artist": "James Young",
+            "poster": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi1.sndcdn.com%2Fartworks-alhQV1Huaz7UFpOa-uIKqaw-t500x500.jpg&imgrefurl=https%3A%2F%2Fsoundcloud.com%2Fsamantha-fernandez-564015372%2Fjames_young_infinity_slowed_do&tbnid=yoPCr2N1SGAiOM&vet=12ahUKEwjh-P_K-eH8AhXSmCcCHRcnCmoQMygJegUIARDLAQ..i&docid=oNaRt7YY7LdqzM&w=500&h=500&q=james%20young%20musician&ved=2ahUKEwjh-P_K-eH8AhXSmCcCHRcnCmoQMygJegUIARDLAQ",
+            "category": "Rock",
+            "mp3":""
+        },
+        {
+            "id":36,
+            "name": "Test and Recognize",
+            "artist": "Seekae",
+            "poster": "https://www.google.com/imgres?imgurl=http%3A%2F%2Fwww.mxdwn.com%2Fwp-content%2Fuploads%2F2014%2F09%2FSeekae-580x580.jpg&imgrefurl=https%3A%2F%2Fmusic.mxdwn.com%2F2014%2F09%2F15%2Fsan-francisco%2Fseekae-1113-rickshaw-stop%2F&tbnid=8PH-swdy9UL9cM&vet=12ahUKEwivvvGF-uH8AhVllCcCHcrrDTgQMygGegUIARCzAQ..i&docid=f3AA2kIqA8g_SM&w=580&h=580&q=seekae&ved=2ahUKEwivvvGF-uH8AhVllCcCHcrrDTgQMygGegUIARCzAQ",
+            "category": "Rock",
+            "mp3":""
+        },
+        {
+            "id":37,
+            "name": "Six forty seven ",
+            "artist": "Instupendo",
+            "poster": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.talkhouse.com%2Fartist%2Finstupendo%2F&psig=AOvVaw0R993VW0NjH9CjREymALyr&ust=1674709845316000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCNDIpML64fwCFQAAAAAdAAAAABAD ",
+            "category": "Rock",
+            "mp3":""
+        },
+        {
+            "id":38,
+            "name": " Romantic lover",
+            "artist": "Eye dress",
+            "poster": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.loudandquiet.com%2Ffiles%2F2018%2F11%2Feyedress-sensitiveg-artwork.jpg&imgrefurl=https%3A%2F%2Fwww.loudandquiet.com%2Freviews%2Feyedress-sensitive-g%2F&tbnid=imbvaah-ChDGYM&vet=12ahUKEwjWxaf0-uH8AhUeT6QEHUpvB8UQMygDegUIARDuAQ..i&docid=EoV-3Os1X_HZnM&w=1200&h=1200&q=eyedress&ved=2ahUKEwjWxaf0-uH8AhUeT6QEHUpvB8UQMygDegUIARDuAQ",
+            "category": "Rock",
+            "mp3":""
+        },
+        {
+            "id": 39,
+            "name": "Jealous",
+            "artist": "Eye dress",
+            "poster": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fsacksco.com%2Fphoto%2Fhi%2Feyedress.jpg&imgrefurl=https%3A%2F%2Fsacksco.com%2Fpr%2Feyedress.html&tbnid=pDfgUhCknMbJBM&vet=12ahUKEwjWxaf0-uH8AhUeT6QEHUpvB8UQMygUegUIARCQAg..i&docid=H1Bg9j-zE65SuM&w=2240&h=3360&q=eyedress&ved=2ahUKEwjWxaf0-uH8AhUeT6QEHUpvB8UQMygUegUIARCQAg",
+            "category": "Rock",
+            "mp3":""
+        },       {
+            "id":40,
+            "name": "Nobody wants to die",
+            "artist": "Rival sons",
+            "poster": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.rollingstone.com%2Fwp-content%2Fuploads%2F2022%2F10%2FRival-Sons-Main-Pub-2022-Robby-Klein-LO.jpg&imgrefurl=https%3A%2F%2Fwww.rollingstone.com%2Fmusic%2Fmusic-news%2Frival-sons-nobody-wants-to-die-kill-bill-1234610195%2F&tbnid=Kp6JoXwkYBa-DM&vet=12ahUKEwiU057U--H8AhUOnCcCHXyRCi8QMygCegUIARC7AQ..i&docid=Z2fQBc1dkIPrvM&w=1800&h=1200&q=nobody%20wants%20to%20die%20rival%20sons&ved=2ahUKEwiU057U--H8AhUOnCcCHXyRCi8QMygCegUIARC7AQ",
+            "category": "Rock",
+            "mp3":""
         }
+  
+ 
+        
     ]
 
 }
