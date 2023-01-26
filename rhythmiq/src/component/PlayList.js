@@ -4,20 +4,42 @@ import PlaylistAdd from './PlaylistAdd';
 
 
 
-function Playlist({songs}) {
+function Playlist({songs, selected}) {
 
- 
   const [mySongs, setMySongs]=useState([])
   const [title, setTitle]=useState([])
+ 
+ 
+  
+
   function handleAddSong(selectedid){
     songs.map(song => {
-      if (song.id === selectedid) {
+      if(mySongs.length===0){
+        if (song.id === selectedid) {
          setMySongs([...mySongs, song])
       }
+
+      }else{
+        for(let item of mySongs){
+          // console.log(item)
+          if(item.id===selectedid){
+            return setMySongs(mySongs)
+          }else if(song.id===selectedid){
+
+            setMySongs([...mySongs, song])
+          }
+        }
+      }
+
+
      })
   }
+  function handleRemoveSong(id){
+    let news= mySongs.filter(song=>song.id!==id)
+    setMySongs(news)
+  }
 
-
+// console.log(search)
     return (
 
       <div className="elementp theme-bg text-light">
@@ -38,6 +60,7 @@ function Playlist({songs}) {
       <div className='px-5' style={{backgroundColor:"rgba(0, 0, 0, 0.1)", opacity:"1"}}>
         <i class="bi bi-play-circle-fill h1 text-warning"></i>
         <div className="selected-playlist">
+          {mySongs.length===0?<h5 className='text-center py-4'>Search any song to add to your playlist</h5>:
           <table class="table text-light">
             <thead>
               <tr>
@@ -45,17 +68,20 @@ function Playlist({songs}) {
                 <th scope="col">Poster</th>
                 <th scope="col">Title</th>
                 <th scope="col">Artist</th>
+                <th scope="col">Genre</th>
                 <th scope="col">Action</th>
               </tr>
             </thead>
             <tbody>
-            {mySongs.map((song) =>  <PlaylistAdd song={song}
-            /> )}
+              
+              {mySongs.map((song) =>  <PlaylistAdd song={song} onDisplay={handleRemoveSong}/> )}
 
 
 
             </tbody>
           </table>
+          }
+          
         </div>
       </div>
       {/* search input */}
@@ -72,13 +98,16 @@ function Playlist({songs}) {
                 <th scope="col">Poster</th>
                 <th scope="col">Title</th>
                 <th scope="col">Artist</th>
+                <th scope="col">Genre</th>
                 <th scope="col">Action</th>
               </tr>
             </thead>
             <tbody>
-            {songs.map((song) =>  <PlayListDisplay song={song}
+              {selected.length===0?songs.map((song) =>  <PlayListDisplay song={song}
+            addSong={handleAddSong}/> ):selected.map((song) =>  <PlayListDisplay song={song}
             addSong={handleAddSong}/> )}
-            
+
+
 
             </tbody>
           </table>
