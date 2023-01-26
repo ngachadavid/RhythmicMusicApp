@@ -26,7 +26,7 @@ const [selectedGenre, setSelectedGenre]=useState([])
       <Routes>
         <Route path='/' element={<Home songs={songs} onSelection={handleSelection}/>}></Route>
         <Route path='/library' element={<Library songs={songs}/>}></Route>
-        <Route path='/playlist' element={<Playlist songs={selectedGenre} selected={selectedGenre}/>}></Route>
+        <Route path='/playlist' element={<Playlist songs={songs} selected={selectedGenre}/>}></Route>
         <Route path='/player' element={<h2>put the player component here, player</h2>}></Route>
         <Route path='/search' element={<Search songs={songs}/>}></Route>
       </Routes>
