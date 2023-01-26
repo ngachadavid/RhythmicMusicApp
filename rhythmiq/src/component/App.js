@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Library from "./Library";
+import Player from "./Player";
 
 import Search from "./Search";
 

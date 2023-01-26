@@ -166,7 +166,7 @@
             "artist": "Afrojack",
             "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Ten-Feet-Tall-Afrojack-featuring-Wrabel.jpg/220px-Ten-Feet-Tall-Afrojack-featuring-Wrabel.jpg",
             "category": "Progressive House",
-            "mp3":"rhythmiq/src/Music/Afrojack-Ten Feet Tall.mp3"
+            "mp3":"../Music/Afrojack-Ten Feet Tall.mp3"
         },
         {
             "id":22,
@@ -174,7 +174,7 @@
             "artist": "Alan Walker",
             "poster": "https://i0.wp.com/jesusful.com/wp-content/uploads/2022/07/Alan-Walker-Faded-Mp3-Download-Lyrics.jpg?resize=300%2C300&ssl=1",
             "category": "Progressive House",
-            "mp3":""
+            "mp3":"../Music/Alan Walker - Faded.mp3"
         },
         {
             "id":23,
@@ -182,7 +182,7 @@
             "artist": "Alan Walker-",
             "poster": "https://i.etsystatic.com/24578333/r/il/f84893/3538802227/il_794xN.3538802227_knii.jpg",
             "category": "Progressive House",
-            "mp3":""
+            "mp3":"../Music/Alan Walker-Style  Memory.mp3"
         },
         {
             "id":24,
@@ -190,7 +190,7 @@
             "artist": "Wildvibes",
             "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2F77c82963a9fca44b80f46e92b9102de4.500x500x1.jpg",
             "category": "Progressive House",
-            "mp3":""
+            "mp3":"../Music/Wildvibes-Flashing Lights.mpeg"
         },
         {
             "id":25,
@@ -198,7 +198,7 @@
             "artist": "WildVibes  Martin Miller ft Arild Aas",
             "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/05/f3/14/05f31422-1efd-942e-85f7-2a0e53c27fa4/053000594116_cover.jpg/296x296bb.webp",
             "category": "Progressive House",
-            "mp3":""
+            "mp3":"../Music/WildVibes  Martin Miller ft Arild Aas  Far From You.mp3"
         },
         {
             "id":26,
@@ -206,7 +206,7 @@
             "artist": "Brett Eldredge",
             "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Brett_Eldredge_-_The_Long_Way_%28single_cover%29.jpg/220px-Brett_Eldredge_-_The_Long_Way_%28single_cover%29.jpg",
             "category": "Country",
-            "mp3":""
+            "mp3":"../Music/Brett Eldredge - The Long Way (Official Music Video).mp3"
         },
         {
             "id":27,
@@ -214,7 +214,7 @@
             "artist": "Brett Young",
             "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Brett_Young_-_In_Case_You_Didn%27t_Know.png/220px-Brett_Young_-_In_Case_You_Didn%27t_Know.png",
             "category": "Country",
-            "mp3":""
+            "mp3":"../Music/Brett Young - In Case You Didn't Know.mp3"
         },
         {
             "id": 28,
@@ -222,7 +222,7 @@
             "artist": "Dylan Schneider",
             "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/24/b7/ca/24b7cac1-3da9-f623-d579-d479fa1e4c3b/859721968256_cover.jpg/296x296bb.webp",
             "category": "Country",
-            "mp3":""
+            "mp3":"../Music/Dylan Schneider - How Does It Sound .mp3"
         },
         {
             "id":29,
@@ -230,7 +230,7 @@
             "artist": "Old Dominion",
             "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2F70fe4a4a8c95627f3a03e92696efee70.1000x1000x1.jpg",
             "category": "Country",
-            "mp3":""
+            "mp3":"../Music/Old Dominion-Written in the sand.mp3"
         },
         {
             "id":30,
@@ -238,7 +238,7 @@
             "artist": "Scotty McCreery ",
             "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2Fdb5239c900df3f7ecd597baf351552f9.492x492x1.jpg",
             "category": "Country",
-            "mp3":""
+            "mp3":"../Music/Scotty McCreery - The Trouble With Girls.mp3"
         },
         {
             "id":31,
