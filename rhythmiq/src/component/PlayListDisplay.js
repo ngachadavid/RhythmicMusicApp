@@ -10,6 +10,7 @@ import React from 'react'
                     <td><img src={song.poster} class="img-fluid" style={{height:'3rem', width:'3rem'}}alt="" /></td>
         <td>{song.name}</td>
                     <td>{song.artist}</td>
+                    <td>{song.category}</td>
             <td><button onClick={handleClick} className='btn btn-sm btn-warning'>Add</button></td>
                     </tr>
 
