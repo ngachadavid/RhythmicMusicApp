@@ -9,45 +9,11 @@ import { Navigate, useNavigate } from 'react-router-dom'
 
 
 
-
-function Playlist({songs}) {
-
-
-    const [newSongTitle, setNewSongTitle] = useState('');
-
-    function handleAddSong() {
-      const newSong = {
-        id: songs.length + 1,
-        title: newSongTitle,
-      };
-      // setSongs([...songs, newSong]);
-      setNewSongTitle('');
-    }
-
-    function handleDeleteSong(id) {
-    //   setSongs(songs.filter((song) => song.id !== id));
-    }
-  console.log(songs)
-
 function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
   const navigator=useNavigate()
 
   const [mySongs, setMySongs]=useState(playsong)
   const [title, setTitle]=useState([])
-
-  const [searchTerm, setSearchTerm] = useState('');
-const [filteredData, setFilteredData] = useState([]);
-const [data, setData] = useState([]); 
-const [searchInput, setSearchInput] = useState('');
-
-
-function handleSearch(e) {
-    e.preventDefault();
-    setFilteredData(data.filter(item => item.name.includes(searchTerm)));
-  
-}
- 
-
   const [show, setShow] = useState(false);
   const [playlistName, setPlaylistName]= useState({
             "name":"yes",
@@ -56,7 +22,6 @@ function handleSearch(e) {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
 
 
 
@@ -80,14 +45,6 @@ function handleSearch(e) {
         }
       }
 
-//     function handleAddSong() {
-//       const newSong = {
-//         id: songs.length + 1,
-//         title: newSongTitle,
-//       };
-//       // setSongs([...songs, newSong]);
-//       setNewSongTitle('');
-//     }
 
      })
   }
@@ -156,7 +113,6 @@ function handleSearch(e) {
       </div>
 
 
-
       <Modal show={show} onHide={handleClose} className="text-center">
         <Modal.Header closeButton className="bg-success text-light">
           <Modal.Title >Playlist Name</Modal.Title>
@@ -194,6 +150,9 @@ function handleSearch(e) {
             <tbody>
 
               {mySongs.map((song) =>  <PlaylistAdd song={song} onDisplay={handleRemoveSong}/> )}
+
+
+
             </tbody>
           </table>
           }
@@ -201,25 +160,10 @@ function handleSearch(e) {
         </div>
       </div>
       {/* search input */}
-      
-            
-
-          
-
-    <div>
-      <form onSubmit={handleSearch}> 
-     <input type="search"
-              placeholder="Search here"  />
-          <button type="submit">Search</button>
-      </form>
-   
-      {filteredData.map(item => (
-          <div key={item.id}>
-              {item.name}
-          </div>
-      ))}
-    </div>
-  
+      <div className='px-5 py-2'>
+        <input type="text" />
+      <button className="btn btn-success ms-5 btn-sm">Add Song</button>
+      </div>
       {/* searched items table */}
       <div className="searched-playlist px-5">
         <table class="table text-light">
@@ -253,4 +197,3 @@ function handleSearch(e) {
   }
 
 export default Playlist
-
