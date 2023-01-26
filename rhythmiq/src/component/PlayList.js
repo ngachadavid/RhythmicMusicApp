@@ -9,6 +9,26 @@ import { Navigate, useNavigate } from 'react-router-dom'
 
 
 
+
+function Playlist({songs}) {
+
+
+    const [newSongTitle, setNewSongTitle] = useState('');
+
+    function handleAddSong() {
+      const newSong = {
+        id: songs.length + 1,
+        title: newSongTitle,
+      };
+      // setSongs([...songs, newSong]);
+      setNewSongTitle('');
+    }
+
+    function handleDeleteSong(id) {
+    //   setSongs(songs.filter((song) => song.id !== id));
+    }
+  console.log(songs)
+
 function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
   const navigator=useNavigate()
 
@@ -111,90 +131,10 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
           </div>
         </div>
       </div>
-      
-
-      <Modal show={show} onHide={handleClose} className="text-center">
-        <Modal.Header closeButton className="bg-success text-light">
-          <Modal.Title >Playlist Name</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
-          <Form onSubmit={handleSubmitPlaylist}>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label></Form.Label>
-              <Form.Control type="text" onChange={handleAddPlaylist} placeholder="Enter desired name" />
-            </Form.Group>
-            <Button variant="success" type="submit" onClick={handleClose}>
-              Create
-            </Button>
-          </Form>
-        </Modal.Body>
-         
-      </Modal>
-
-
-
-      <div className='px-5' style={{backgroundColor:"rgba(0, 0, 0, 0.1)", opacity:"1"}}>
-        <i class="bi bi-play-circle-fill h1 text-warning"></i>
-        <div className="selected-playlist">
-          {mySongs.length===0?<h5 className='text-center py-4'>Search any song to add to your playlist</h5>:
-          <table class="table text-light">
-            <thead>
-              <tr>
-
-                <th scope="col">Poster</th>
-                <th scope="col">Title</th>
-                <th scope="col">Artist</th>
-                <th scope="col">Genre</th>
-                <th scope="col">Action</th>
-              </tr>
-            </thead>
-            <tbody>
-
-              {mySongs.map((song) =>  <PlaylistAdd song={song} onDisplay={handleRemoveSong}/> )}
-
-
-
-            </tbody>
-          </table>
-          }
-
-        </div>
-      </div>
-      {/* search input */}
-      <div className='px-5 py-2'>
-        <input type="text" />
-      <button className="btn btn-success ms-5 btn-sm">Add Song</button>
-      </div>
-      {/* searched items table */}
-      <div className="searched-playlist px-5">
-        <table class="table text-light">
-            <thead>
-              <tr>
-
-                <th scope="col">Poster</th>
-                <th scope="col">Title</th>
-                <th scope="col">Artist</th>
-                <th scope="col">Genre</th>
-                <th scope="col">Action</th>
-              </tr>
-            </thead>
-            <tbody>
-              {selected.length===0?songs.map((song) =>  <PlayListDisplay song={song}
-            addSong={handleAddSong}/> ):selected.map((song) =>  <PlayListDisplay song={song}
-            addSong={handleAddSong}/> )}
-
-
-
-            </tbody>
-          </table>
-        </div>
-
-
-    </div>
-
-
-
     );
   }
 
 export default Playlist
+
+
+
