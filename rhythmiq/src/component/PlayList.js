@@ -20,48 +20,43 @@ function Playlist({songs}) {
    
 
     
-  
-    
+//     const [newSongTitle, setNewSongTitle] = useState('');
 
+//     function handleAddSong() {
+//       const newSong = {
+//         id: songs.length + 1,
+//         title: newSongTitle,
+//       };
+//       // setSongs([...songs, newSong]);
+//       setNewSongTitle('');
+//     }
 
+//     function handleDeleteSong(id) {
+//     //   setSongs(songs.filter((song) => song.id !== id));
+//     }
+//   console.log(songs)
 
-    const [newSongTitle, setNewSongTitle] = useState('');
-
-    function handleAddSong() {
-      const newSong = {
-        id: songs.length + 1,
-        title: newSongTitle,
-      };
-      // setSongs([...songs, newSong]);
-      setNewSongTitle('');
-    }
-
-    function handleDeleteSong(id) {
-    //   setSongs(songs.filter((song) => song.id !== id));
-    }
-  console.log(songs)
-
-    return (
+//     return (
       
-      <div className="elementp theme-bg text-light">
-      <div style={{backgroundColor:'#355E3B'}}>
-        <div className="d-md-flex justify-content-start align-items-center px-4" style={{height:'40%'}}>
-          <div className="image-holder p-4" style={{height:'20rem', width:'20rem'}}>
-            <img src="https://t2.genius.com/unsafe/295x295/https%3A%2F%2Fimages.genius.com%2F04ca8f6cc29d2ddde9e6756b92488a6f.1000x1000x1.jpg" class="img-fluid" alt="" />
-          </div>
-          <div className="text-holder ms-5">
-            <p>Playlist</p>
-            <h2>Playlist Name</h2>
-            <p>2 songs</p>
-          </div>
-        </div>
-      </div>
+//       <div className="elementp theme-bg text-light">
+//       <div style={{backgroundColor:'#355E3B'}}>
+//         <div className="d-md-flex justify-content-start align-items-center px-4" style={{height:'40%'}}>
+//           <div className="image-holder p-4" style={{height:'20rem', width:'20rem'}}>
+//             <img src="https://t2.genius.com/unsafe/295x295/https%3A%2F%2Fimages.genius.com%2F04ca8f6cc29d2ddde9e6756b92488a6f.1000x1000x1.jpg" class="img-fluid" alt="" />
+//           </div>
+//           <div className="text-holder ms-5">
+//             <p>Playlist</p>
+//             <h2>Playlist Name</h2>
+//             <p>2 songs</p>
+//           </div>
+//         </div>
+//       </div>
 
 
-    );
-  }
+//     );
+//   }
 
-export default Playlist
+// export default Playlist
 
 
       <div className='px-5' style={{backgroundColor:"rgba(0, 0, 0, 0.1)", opacity:"1"}}>
@@ -112,11 +107,6 @@ export default Playlist
           </table>
         </div>
 
-    </div>      
-
-
-
-    );
   }
   
 export default Playlist
