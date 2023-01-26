@@ -254,5 +254,3 @@ function handleSearch(e) {
 
 export default Playlist
 
-
-

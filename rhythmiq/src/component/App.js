@@ -8,7 +8,6 @@ import Playlist from "./PlayList";
 import Home from "./Home";
 import Navbar from "./Navbar";
 
-import {Routes, Route} from "react-router-dom";
 import Player from "./Player";
 
 import {Routes, Route, useNavigate} from "react-router-dom";
