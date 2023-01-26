@@ -7,7 +7,12 @@ import Search from "./Search";
 import Playlist from "./PlayList";
 import Home from "./Home";
 import Navbar from "./Navbar";
+
+import {Routes, Route} from "react-router-dom";
+import Player from "./Player";
+
 import {Routes, Route, useNavigate} from "react-router-dom";
+
 
 function App() {
 
@@ -64,6 +69,7 @@ const [playlistId, setPlaylistid]= useState(0)
         <Route path='/playlist' element={<Playlist songs={songs} selected={selectedGenre} onAddPlaylist={addPlaylistname} playlistTitle={playlistName} playsong={playsong} playlistId={playlistId}/>}></Route>
         <Route path='/player' element={<h2>put the player component here, player</h2>}></Route>
         <Route path='/search' element={<Search songs={songs} search = {search} setSearch = {setSearch}></Search>}></Route>
+
       </Routes>
     </div>
   );

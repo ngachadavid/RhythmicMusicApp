@@ -9,6 +9,26 @@ import { Navigate, useNavigate } from 'react-router-dom'
 
 
 
+
+function Playlist({songs}) {
+
+
+    const [newSongTitle, setNewSongTitle] = useState('');
+
+    function handleAddSong() {
+      const newSong = {
+        id: songs.length + 1,
+        title: newSongTitle,
+      };
+      // setSongs([...songs, newSong]);
+      setNewSongTitle('');
+    }
+
+    function handleDeleteSong(id) {
+    //   setSongs(songs.filter((song) => song.id !== id));
+    }
+  console.log(songs)
+
 function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
   const navigator=useNavigate()
 
@@ -113,6 +133,7 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
       </div>
 
 
+
       <Modal show={show} onHide={handleClose} className="text-center">
         <Modal.Header closeButton className="bg-success text-light">
           <Modal.Title >Playlist Name</Modal.Title>
@@ -197,3 +218,6 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
   }
 
 export default Playlist
+
+
+
