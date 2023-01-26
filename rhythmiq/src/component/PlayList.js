@@ -8,9 +8,19 @@ function Playlist({songs, selected}) {
 
   const [mySongs, setMySongs]=useState([])
   const [title, setTitle]=useState([])
- 
- 
+  const [searchTerm, setSearchTerm] = useState('');
+const [filteredData, setFilteredData] = useState([]);
+const [data, setData] = useState([]); 
+const [searchInput, setSearchInput] = useState('');
+
+
+function handleSearch(e) {
+    e.preventDefault();
+    setFilteredData(data.filter(item => item.name.includes(searchTerm)));
   
+}
+ 
+
 
   function handleAddSong(selectedid){
     songs.map(song => {
@@ -83,9 +93,6 @@ function Playlist({songs, selected}) {
             <tbody>
               
               {mySongs.map((song) =>  <PlaylistAdd song={song} onDisplay={handleRemoveSong}/> )}
-
-
-
             </tbody>
           </table>
           }
@@ -93,24 +100,15 @@ function Playlist({songs, selected}) {
         </div>
       </div>
       {/* search input */}
-      <div className='px-5 py-2'>
-        <input type="text" />
-      <button className="btn btn-success ms-5 btn-sm">Add Song</button>
+      
             
-{/* const [searchTerm, setSearchTerm] = useState('');
-const [filteredData, setFilteredData] = useState([]);
-const [data, setData] = useState([]); // added
 
-function handleSearch(e) {
-    e.preventDefault();
-    setFilteredData(data.filter(item => item.name.includes(searchTerm)));
-}
+          
 
-function Component() { 
-  return ( 
     <div>
       <form onSubmit={handleSearch}> 
-          <input type="text" placeholder="Search..." onChange={event => setSearchTerm(event.target.value)} />
+     <input type="search"
+              placeholder="Search here"  />
           <button type="submit">Search</button>
       </form>
    
@@ -120,12 +118,7 @@ function Component() {
           </div>
       ))}
     </div>
-  )
-}
- */}
-
-
-      </div>
+  
       {/* searched items table */}
       <div className="searched-playlist px-5">
         <table class="table text-light">
