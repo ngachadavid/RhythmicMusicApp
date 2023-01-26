@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from "react-router-dom";
 
 const Navbar = ({playlist}) => {
-    
+
   return (
     <nav className="navposition">
       <div>
@@ -23,11 +23,6 @@ const Navbar = ({playlist}) => {
           <i className="bi bi-music-note-list"></i>
           <Link to='/library'>Your Library</Link>
         </li>
-        
-        <li>
-          <i className="bi bi-droplet-fill"></i>
-          <Link to='/liked-songs'>Liked Songs</Link>
-        </li>
         <li>
           <i className="bi bi-balloon-heart-fill"></i>
           <Link to='/player'>Player</Link>
@@ -39,8 +34,8 @@ const Navbar = ({playlist}) => {
       </ul>
       <ul className='text-light' id='playlist'>
         {playlist.length===0?<li>No playlist</li>:playlist.map(item=><li key={item.id} className='py-1'><a href=""></a>{item.name}</li>)}
-        
-        
+
+
       </ul>
     </nav>
   )
