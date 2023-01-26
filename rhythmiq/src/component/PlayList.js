@@ -4,10 +4,10 @@ import React, { useState} from 'react';
 
 
 function Playlist({songs}) {
- 
-    
+
+
     const [newSongTitle, setNewSongTitle] = useState('');
-  
+
     function handleAddSong() {
       const newSong = {
         id: songs.length + 1,
@@ -16,7 +16,7 @@ function Playlist({songs}) {
       // setSongs([...songs, newSong]);
       setNewSongTitle('');
     }
-  
+
     function handleDeleteSong(id) {
     //   setSongs(songs.filter((song) => song.id !== id));
     }
@@ -44,9 +44,8 @@ function Playlist({songs}) {
       </div>
     );
   }
-  
+
 export default Playlist
 
 
 
-        
