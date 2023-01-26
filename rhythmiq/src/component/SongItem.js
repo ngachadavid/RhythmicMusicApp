@@ -1,17 +1,19 @@
 import React from 'react'
 
 
-const SongItem = () => {
+const SongItem = ({song}) => {
+
   
 
   return (
     <>
     <div className="col-md">
             <div className="card" style={{width: '13rem', cursor:"pointer", height:'15%'}}>
-              
+            <img class="card-img-top" src={song.poster} alt="Card image cap"/>
               <div className="card-body bg-dark">
-                <i class="bi bi-music-note-beamed h1"></i>
-                <h6 className="card-title py-5">Playlist 1</h6>
+              
+                <p className="card-text ">{song.name}</p>
+                <p className="card-text ">{song.artist}</p>
                 
               </div>
             </div>
