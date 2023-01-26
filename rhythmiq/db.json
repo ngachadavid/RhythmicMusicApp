@@ -1,355 +1,366 @@
 {
-    "song":[
-        {
-            "id":"1",
-            "name": "I Hate U",
-            "artist": "SZA",
-            "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/f6/4f/19/f64f19b7-3ab4-ad2d-5a67-ca196d278b44/886449787043.jpg/316x316bb.webp",
-            "category": "RnB",
-            "mp3":".mp3"
-        },
-        {
-            "id":"2",
-            "name": "Fire & Desire",
-            "artist": "Drake",
-            "poster": "https://t2.genius.com/unsafe/295x295/https%3A%2F%2Fimages.genius.com%2F04ca8f6cc29d2ddde9e6756b92488a6f.1000x1000x1.jpg",
-            "category": "RnB",
-            "mp3":".mp3"
-        },
-        {
-            "id":"3",
-            "name": "Under The Influence",
-            "artist": "Chris Brown",
-            "poster": "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/96/1b/c9/961bc949-7e03-2670-f612-72c34ece6a22/886447924464.jpg/316x316bb.webp",
-            "category": "RnB",
-            "mp3":".mp3"
-        },
-        {
-            "id":"4",
-            "name": "Out of Time",
-            "artist": "The Weekend",
-            "poster": "https://is2-ssl.mzstatic.com/image/thumb/Video126/v4/bd/47/c8/bd47c8df-88aa-e56b-da25-f3eca7eb9e7f/Jobd24bacb4-0d6b-4de7-bea7-737e0c071112-131636306-PreviewImage_preview_image_nonvideo_sdr-Time1652031518583.png/316x316bb.webp",
-            "category": "RnB",
-            "mp3":".mp3"
-        },
-        {
-            "id":"5",
-            "name": "Heartbreak Anniversary",
-            "artist": "Giveon",
-            "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fd725e94ee1e486f1ecd83b46a61dff6c.1000x1000x1.png",
-            "category": "RnB",
-            "mp3":".mp3"
-        },
-        {
-            "id":"6",
-            "name": "Out the way",
-            "artist": "Yeat",
-            "poster": "https://t2.genius.com/unsafe/281x281/https%3A%2F%2Fimages.genius.com%2F7ef45be53db637c95430535c471188a9.1000x1000x1.jpg",
-            "category": "trap",
-            "mp3":".mp3"
-        },
-        {
-            "id":"7",
-            "name": "Magnolia",
-            "artist": "Playboi Carti",
-            "poster": "https://t2.genius.com/unsafe/324x324/https%3A%2F%2Fimages.genius.com%2Fcbe7d40e5f814ff27f232fe7ed3b2120.1000x1000x1.png",
-            "category": "trap",
-            "mp3":".mp3"
-        },
-        {
-            "id":"8",
-            "name": "Just Wanna Rock",
-            "artist": "Lil Uzi Vert",
-            "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fa1660b86498e7f462f2e0546191cb5d6.1000x1000x1.png",
-            "category": "trap",
-            "mp3":".mp3"
-        },
-        {
-            "id":"9",
-            "name": "Surround Sound",
-            "artist": "J.I.D",
-            "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/cf/73/dc/cf73dc77-d33e-0b52-9a70-75f91c1eae09/22UMGIM84207.rgb.jpg/316x316bb.webp",
-            "category": "trap",
-            "mp3":".mp3"
-        },
-        {
-            "id":"10",
-            "name": "Lemon Pepper Freestyle",
-            "artist": "Drake",
-            "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F92fe61edad0376f8f51e5f839be31465.1000x1000x1.png",
-            "category": "trap",
-            "mp3":".mp3"
-        },
-        {
-          "id":"11",
-          "name": "Last Last",
-          "artist": "Burna Boy",
-          "poster": "https://i1.sndcdn.com/artworks-eLhbcvGEyCjo7mtY-tZS7NA-t500x500.jpg",
-          "category": "Afro Beats",
-         "mp3":".mp3"
-        },
-        {
-        "id":"12",
-        "name": "Rush",
-        "artist": "Ayra Starr",
-        "poster": "https://mp3sauce.com/wp-content/uploads/2022/09/Ayra-Starr.jpg",
-        "category": "Afro Beats",
-        "mp3":".mp3"
-        },
-        {
-        "id":"13",
-        "name": "Soweto",
-        "artist": "Victory, Tempore",
-        "poster": "https://source.boomplaymusic.com/group10/M00/01/13/bbc404eacf324a899fac11e2089361cc_464_464.jpg",
-        "category": "Afro Beats",
-        "mp3":".mp3"
-        },
-        {
-        "id":"14",
-        "name": "Monalisa",
-        "artist": "Lojay, Sarz, Chris Brown",
-        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F6343301acc310b5e8bc6fe38253ebc9d.1000x1000x1.jpg",
-        "category": "Afro Beats",
-        "mp3":".mp3"
-        },
-        {
-        "id":"15",
-        "name": "Loaded",
-        "artist": "Tiwa Savage, Asake",
-        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F24fcea016af867b69e5b9f0b3332979a.600x600x1.jpg",
-        "category": "Afro Beats",
-        "mp3":".mp3"
-        },
-        {
-        "id":"16",
-        "name": "Diamond",
-        "artist": "Rihanna",
-        "poster": "https://t2.genius.com/unsafe/292x292/https%3A%2F%2Fimages.genius.com%2Fd31652f8a9f5ae2afc54525cff56b883.1000x1000x1.jpg",
-        "category": "Pop",
-        "mp3":".mp3"
-        },
-        {
-        "id":"17",
-        "name": "Shape of You",
-        "artist": "Ed Sheeran",
-        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F86dcab92e27599f8556b5b8f21932449.1000x1000x1.png",
-        "category": "Pop",
-        "mp3":".mp3"
-        },
-        {
-        "id":"18",
-        "name": "Wake Me Up",
-        "artist": "Avicii",
-        "poster": "https://t2.genius.com/unsafe/291x291/https%3A%2F%2Fimages.genius.com%2F458e6b68cac89d7f94a082f21fddf25c.1000x1000x1.png",
-        "category": "Pop",
-        "mp3":".mp3"
-        },
-        {
-        "id":"19",
-        "name": "Dance Monkey",
-        "artist": "Tones And I",
-        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fede1aee3ff875d14a591481f3cee0459.1000x1000x1.png",
-        "category": "Pop",
-        "mp3":".mp3"
-        },
-        {
-        "id":"20",
-        "name": "One More Night",
-        "artist": "Marron 5",
-        "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F8ebc028058966ab7b4ebcd511ed0bada.953x953x1.jpg",
-        "category": "Pop",
-        "mp3":".mp3"
-        },
-        {
-            "id":21,
-            "name": "Ten Feet Tall",
-            "artist": "Afrojack",
-            "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Ten-Feet-Tall-Afrojack-featuring-Wrabel.jpg/220px-Ten-Feet-Tall-Afrojack-featuring-Wrabel.jpg",
-            "category": "Progressive House",
-            "mp3":"rhythmiq/src/Music/Afrojack-Ten Feet Tall.mp3"
-        },
-        {
-            "id":22,
-            "name": "Faded",
-            "artist": "Alan Walker",
-            "poster": "https://i0.wp.com/jesusful.com/wp-content/uploads/2022/07/Alan-Walker-Faded-Mp3-Download-Lyrics.jpg?resize=300%2C300&ssl=1",
-            "category": "Progressive House",
-            "mp3":""
-        },
-        {
-            "id":23,
-            "name": "Style  Memory",
-            "artist": "Alan Walker-",
-            "poster": "https://i.etsystatic.com/24578333/r/il/f84893/3538802227/il_794xN.3538802227_knii.jpg",
-            "category": "Progressive House",
-            "mp3":""
-        },
-        {
-            "id":24,
-            "name": "Flashing Lights",
-            "artist": "Wildvibes",
-            "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2F77c82963a9fca44b80f46e92b9102de4.500x500x1.jpg",
-            "category": "Progressive House",
-            "mp3":""
-        },
-        {
-            "id":25,
-            "name": "Far From You",
-            "artist": "WildVibes  Martin Miller ft Arild Aas",
-            "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/05/f3/14/05f31422-1efd-942e-85f7-2a0e53c27fa4/053000594116_cover.jpg/296x296bb.webp",
-            "category": "Progressive House",
-            "mp3":""
-        },
-        {
-            "id":26,
-            "name": "The Long Way ",
-            "artist": "Brett Eldredge",
-            "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Brett_Eldredge_-_The_Long_Way_%28single_cover%29.jpg/220px-Brett_Eldredge_-_The_Long_Way_%28single_cover%29.jpg",
-            "category": "Country",
-            "mp3":""
-        },
-        {
-            "id":27,
-            "name": " In Case You Didn't Know",
-            "artist": "Brett Young",
-            "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Brett_Young_-_In_Case_You_Didn%27t_Know.png/220px-Brett_Young_-_In_Case_You_Didn%27t_Know.png",
-            "category": "Country",
-            "mp3":""
-        },
-        {
-            "id": 28,
-            "name": "How Does It Sound",
-            "artist": "Dylan Schneider",
-            "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/24/b7/ca/24b7cac1-3da9-f623-d579-d479fa1e4c3b/859721968256_cover.jpg/296x296bb.webp",
-            "category": "Country",
-            "mp3":""
-        },
-        {
-            "id":29,
-            "name": "Written in the sand",
-            "artist": "Old Dominion",
-            "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2F70fe4a4a8c95627f3a03e92696efee70.1000x1000x1.jpg",
-            "category": "Country",
-            "mp3":""
-        },
-        {
-            "id":30,
-            "name": "The Trouble With Girls",
-            "artist": "Scotty McCreery ",
-            "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2Fdb5239c900df3f7ecd597baf351552f9.492x492x1.jpg",
-            "category": "Country",
-            "mp3":""
-        },
-        {
-            "id":31,
-            "name": "Patience ",
-            "artist": "Guns N Roses",
-            "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GNR_London_Stadium_2017_3_%28cropped%29.jpg/300px-GNR_London_Stadium_2017_3_%28cropped%29.jpg",
-            "category": "Rock",
-            "mp3":""
-        },
-        {
-            "id":32,
-            "name": "Rapture",
-            "artist": "Rival sons",
-            "poster": "https://media.gq-magazine.co.uk/photos/5d13a2f39fa6016a848394dc/4:3/w_1704,h_1278,c_limit/Rival-Sons-02-GQ-30Jan17_Tony-Mott_b.jpg",
-            "category": "Rock",
-            "mp3":""
-        },
-        {
-            "id":33,
-            "name": "infinity",
-            "artist": "james young",
-            "poster": "https://images.genius.com/002e629cd216adac1fdd6bfb63c70976.800x800x1.jpg",
-            "category": "Rock",
-            "mp3":""
-        },
-        {
-            "id":34,
-            "name": "Fading like a picture",
-            "artist": "DMA",
-            "poster": "https://www.billboard.com/wp-content/uploads/2022/04/Galantis-Roxette-Courtesy-of-Parlophone-Sweden-Warner-Music-Sweden-press-2022-billboard-1548.jpg",
-            "category": "Rock",
-            "mp3":""
-        },
-        {
-            "id":35,
-            "name": "Happiest year",
-            "artist": "James Young",
-            "poster": "https://i.scdn.co/image/ab67616d0000b2734fa99b79cb393270c88adfdf",
-            "category": "Rock",
-            "mp3":""
-        },
-        {
-            "id":36,
-            "name": "Test and Recognize",
-            "artist": "Seekae",
-            "poster": "https://villagesounds.com/app/uploads/2017/11/seekae-1.jpg",
-            "category": "Rock",
-            "mp3":""
-        },
-        {
-            "id":37,
-            "name": "Six forty seven ",
-            "artist": "Instupendo",
-            "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcmcPRL0O-z0MXeMdPj646U88bs7o7uzK0hVkDYO9zRZNvJU0p ",
-            "category": "Rock",
-            "mp3":""
-        },
-        {
-            "id":38,
-            "name": " Romantic lover",
-            "artist": "Eye dress",
-            "poster": "https://cdn.pastemagazine.com/www/articles/eyedress-stillinlovebts-main.jpg",
-            "category": "Rock",
-            "mp3":""
-        },
-        {
-            "id": 39,
-            "name": "Jealous",
-            "artist": "Eye dress",
-            "poster": "https://thefader-res.cloudinary.com/private_images/w_750,c_limit,f_auto,q_auto:eco/DSCF2680_jfvnl6/DSCF2680_jfvnl6.jpg",
-            "category": "Rock",
-            "mp3":""
-        },       {
-            "id":40,
-            "name": "Nobody wants to die",
-            "artist": "Rival sons",
-            "poster": "https://lastfm.freetls.fastly.net/i/u/ar0/8c48ede25005549af3c3767ea8a36aca.jpg",
-            "category": "Rock",
-            "mp3":""
-        }
-    ],
-    "genres":[
-        {
-            "genre":"Pop",
-            "poster":"https://img.freepik.com/premium-vector/pop-music-vintage-3d-vector-lettering-retro-bold-font-typeface-pop-art-stylized-text-old-school-style-letters-numbers-symbols-elements-pack-90s-80s-poster-banner-pine-color-background_106317-21305.jpg?w=740"
-        },
-        {
-            "genre":"Country",
-            "poster":"https://media.istockphoto.com/id/1199975287/vector/country-music-sign-cowboy-hat-with-country-music-lettering-on-black-background.jpg?s=612x612&w=0&k=20&c=4r2p2VhTBgZVXdPqil19Nx5gI0YIWzpFFg_oLYI9lE4="
-        },
-        {
-            "genre":"Rock",
-            "poster":"https://media.istockphoto.com/id/958707426/vector/monochrome-antique-hipster-vintage-label-badge-crest-rock-and-roll-for-flyer-poster-logo-or-t.jpg?s=612x612&w=0&k=20&c=XYrvSRZxv5bQvHunItrILis7hyZQPbSNXQmtHvaTKZU="
-        },
-        {
-            "genre":"RnB",
-            "poster":"https://media.istockphoto.com/id/1203264140/vector/rhythm-and-blues-vintage-3d-vector-lettering-retro-bold-font-typeface-pop-art-stylized-text.jpg?s=612x612&w=0&k=20&c=Ap-KXJxUyR4APJE5rnvF9DlpGIM9L1TCXRLf-wYtCn4="
-        },
-        {
-            "genre":"trap",
-            "poster":"https://i0.wp.com/www.six9ja.com/wp-content/uploads/2021/10/DJ-YK-%E2%80%93-Trap-Lanje-Beat.jpeg?fit=700%2C700&ssl=1"
-        },
-        {
-            "genre":"Afro Beats",
-            "poster":"https://flutymusic.com/wp-content/uploads/2020/02/afro-beats.jpg"
-        },
-        {
-            "genre":"Progressive House",
-            "poster":"https://ms.bestservice.com/w09/img_500x500/00004709.webp"
-        }
-    ]
-
+  "song": [
+    {
+      "id": "1",
+      "name": "I Hate U",
+      "artist": "SZA",
+      "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/f6/4f/19/f64f19b7-3ab4-ad2d-5a67-ca196d278b44/886449787043.jpg/316x316bb.webp",
+      "category": "RnB",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "2",
+      "name": "Fire & Desire",
+      "artist": "Drake",
+      "poster": "https://t2.genius.com/unsafe/295x295/https%3A%2F%2Fimages.genius.com%2F04ca8f6cc29d2ddde9e6756b92488a6f.1000x1000x1.jpg",
+      "category": "RnB",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "3",
+      "name": "Under The Influence",
+      "artist": "Chris Brown",
+      "poster": "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/96/1b/c9/961bc949-7e03-2670-f612-72c34ece6a22/886447924464.jpg/316x316bb.webp",
+      "category": "RnB",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "4",
+      "name": "Out of Time",
+      "artist": "The Weekend",
+      "poster": "https://is2-ssl.mzstatic.com/image/thumb/Video126/v4/bd/47/c8/bd47c8df-88aa-e56b-da25-f3eca7eb9e7f/Jobd24bacb4-0d6b-4de7-bea7-737e0c071112-131636306-PreviewImage_preview_image_nonvideo_sdr-Time1652031518583.png/316x316bb.webp",
+      "category": "RnB",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "5",
+      "name": "Heartbreak Anniversary",
+      "artist": "Giveon",
+      "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fd725e94ee1e486f1ecd83b46a61dff6c.1000x1000x1.png",
+      "category": "RnB",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "6",
+      "name": "Out the way",
+      "artist": "Yeat",
+      "poster": "https://t2.genius.com/unsafe/281x281/https%3A%2F%2Fimages.genius.com%2F7ef45be53db637c95430535c471188a9.1000x1000x1.jpg",
+      "category": "trap",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "7",
+      "name": "Magnolia",
+      "artist": "Playboi Carti",
+      "poster": "https://t2.genius.com/unsafe/324x324/https%3A%2F%2Fimages.genius.com%2Fcbe7d40e5f814ff27f232fe7ed3b2120.1000x1000x1.png",
+      "category": "trap",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "8",
+      "name": "Just Wanna Rock",
+      "artist": "Lil Uzi Vert",
+      "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fa1660b86498e7f462f2e0546191cb5d6.1000x1000x1.png",
+      "category": "trap",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "9",
+      "name": "Surround Sound",
+      "artist": "J.I.D",
+      "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music122/v4/cf/73/dc/cf73dc77-d33e-0b52-9a70-75f91c1eae09/22UMGIM84207.rgb.jpg/316x316bb.webp",
+      "category": "trap",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "10",
+      "name": "Lemon Pepper Freestyle",
+      "artist": "Drake",
+      "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F92fe61edad0376f8f51e5f839be31465.1000x1000x1.png",
+      "category": "trap",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "11",
+      "name": "Last Last",
+      "artist": "Burna Boy",
+      "poster": "https://i1.sndcdn.com/artworks-eLhbcvGEyCjo7mtY-tZS7NA-t500x500.jpg",
+      "category": "Afro Beats",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "12",
+      "name": "Rush",
+      "artist": "Ayra Starr",
+      "poster": "https://mp3sauce.com/wp-content/uploads/2022/09/Ayra-Starr.jpg",
+      "category": "Afro Beats",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "13",
+      "name": "Soweto",
+      "artist": "Victory, Tempore",
+      "poster": "https://source.boomplaymusic.com/group10/M00/01/13/bbc404eacf324a899fac11e2089361cc_464_464.jpg",
+      "category": "Afro Beats",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "14",
+      "name": "Monalisa",
+      "artist": "Lojay, Sarz, Chris Brown",
+      "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F6343301acc310b5e8bc6fe38253ebc9d.1000x1000x1.jpg",
+      "category": "Afro Beats",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "15",
+      "name": "Loaded",
+      "artist": "Tiwa Savage, Asake",
+      "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F24fcea016af867b69e5b9f0b3332979a.600x600x1.jpg",
+      "category": "Afro Beats",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "16",
+      "name": "Diamond",
+      "artist": "Rihanna",
+      "poster": "https://t2.genius.com/unsafe/292x292/https%3A%2F%2Fimages.genius.com%2Fd31652f8a9f5ae2afc54525cff56b883.1000x1000x1.jpg",
+      "category": "Pop",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "17",
+      "name": "Shape of You",
+      "artist": "Ed Sheeran",
+      "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F86dcab92e27599f8556b5b8f21932449.1000x1000x1.png",
+      "category": "Pop",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "18",
+      "name": "Wake Me Up",
+      "artist": "Avicii",
+      "poster": "https://t2.genius.com/unsafe/291x291/https%3A%2F%2Fimages.genius.com%2F458e6b68cac89d7f94a082f21fddf25c.1000x1000x1.png",
+      "category": "Pop",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "19",
+      "name": "Dance Monkey",
+      "artist": "Tones And I",
+      "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2Fede1aee3ff875d14a591481f3cee0459.1000x1000x1.png",
+      "category": "Pop",
+      "mp3": ".mp3"
+    },
+    {
+      "id": "20",
+      "name": "One More Night",
+      "artist": "Marron 5",
+      "poster": "https://t2.genius.com/unsafe/327x327/https%3A%2F%2Fimages.genius.com%2F8ebc028058966ab7b4ebcd511ed0bada.953x953x1.jpg",
+      "category": "Pop",
+      "mp3": ".mp3"
+    },
+    {
+      "id": 21,
+      "name": "Ten Feet Tall",
+      "artist": "Afrojack",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Ten-Feet-Tall-Afrojack-featuring-Wrabel.jpg/220px-Ten-Feet-Tall-Afrojack-featuring-Wrabel.jpg",
+      "category": "Progressive House",
+      "mp3": "../Music/Afrojack-Ten Feet Tall.mp3"
+    },
+    {
+      "id": 22,
+      "name": "Faded",
+      "artist": "Alan Walker",
+      "poster": "https://i0.wp.com/jesusful.com/wp-content/uploads/2022/07/Alan-Walker-Faded-Mp3-Download-Lyrics.jpg?resize=300%2C300&ssl=1",
+      "category": "Progressive House",
+      "mp3": "../Music/Alan Walker - Faded.mp3"
+    },
+    {
+      "id": 23,
+      "name": "Style  Memory",
+      "artist": "Alan Walker-",
+      "poster": "https://i.etsystatic.com/24578333/r/il/f84893/3538802227/il_794xN.3538802227_knii.jpg",
+      "category": "Progressive House",
+      "mp3": "../Music/Alan Walker-Style  Memory.mp3"
+    },
+    {
+      "id": 24,
+      "name": "Flashing Lights",
+      "artist": "Wildvibes",
+      "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2F77c82963a9fca44b80f46e92b9102de4.500x500x1.jpg",
+      "category": "Progressive House",
+      "mp3": "../Music/Wildvibes-Flashing Lights.mpeg"
+    },
+    {
+      "id": 25,
+      "name": "Far From You",
+      "artist": "WildVibes  Martin Miller ft Arild Aas",
+      "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music123/v4/05/f3/14/05f31422-1efd-942e-85f7-2a0e53c27fa4/053000594116_cover.jpg/296x296bb.webp",
+      "category": "Progressive House",
+      "mp3": "../Music/WildVibes  Martin Miller ft Arild Aas  Far From You.mp3"
+    },
+    {
+      "id": 26,
+      "name": "The Long Way ",
+      "artist": "Brett Eldredge",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Brett_Eldredge_-_The_Long_Way_%28single_cover%29.jpg/220px-Brett_Eldredge_-_The_Long_Way_%28single_cover%29.jpg",
+      "category": "Country",
+      "mp3": "../Music/Brett Eldredge - The Long Way (Official Music Video).mp3"
+    },
+    {
+      "id": 27,
+      "name": " In Case You Didn't Know",
+      "artist": "Brett Young",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Brett_Young_-_In_Case_You_Didn%27t_Know.png/220px-Brett_Young_-_In_Case_You_Didn%27t_Know.png",
+      "category": "Country",
+      "mp3": "../Music/Brett Young - In Case You Didn't Know.mp3"
+    },
+    {
+      "id": 28,
+      "name": "How Does It Sound",
+      "artist": "Dylan Schneider",
+      "poster": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/24/b7/ca/24b7cac1-3da9-f623-d579-d479fa1e4c3b/859721968256_cover.jpg/296x296bb.webp",
+      "category": "Country",
+      "mp3": "../Music/Dylan Schneider - How Does It Sound .mp3"
+    },
+    {
+      "id": 29,
+      "name": "Written in the sand",
+      "artist": "Old Dominion",
+      "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2F70fe4a4a8c95627f3a03e92696efee70.1000x1000x1.jpg",
+      "category": "Country",
+      "mp3": "../Music/Old Dominion-Written in the sand.mp3"
+    },
+    {
+      "id": 30,
+      "name": "The Trouble With Girls",
+      "artist": "Scotty McCreery ",
+      "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2Fdb5239c900df3f7ecd597baf351552f9.492x492x1.jpg",
+      "category": "Country",
+      "mp3": "../Music/Scotty McCreery - The Trouble With Girls.mp3"
+    },
+    {
+      "id": 31,
+      "name": "Patience ",
+      "artist": "Guns N Roses",
+      "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GNR_London_Stadium_2017_3_%28cropped%29.jpg/300px-GNR_London_Stadium_2017_3_%28cropped%29.jpg",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 32,
+      "name": "Rapture",
+      "artist": "Rival sons",
+      "poster": "https://media.gq-magazine.co.uk/photos/5d13a2f39fa6016a848394dc/4:3/w_1704,h_1278,c_limit/Rival-Sons-02-GQ-30Jan17_Tony-Mott_b.jpg",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 33,
+      "name": "infinity",
+      "artist": "james young",
+      "poster": "https://images.genius.com/002e629cd216adac1fdd6bfb63c70976.800x800x1.jpg",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 34,
+      "name": "Fading like a picture",
+      "artist": "DMA",
+      "poster": "https://www.billboard.com/wp-content/uploads/2022/04/Galantis-Roxette-Courtesy-of-Parlophone-Sweden-Warner-Music-Sweden-press-2022-billboard-1548.jpg",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 35,
+      "name": "Happiest year",
+      "artist": "James Young",
+      "poster": "https://i.scdn.co/image/ab67616d0000b2734fa99b79cb393270c88adfdf",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 36,
+      "name": "Test and Recognize",
+      "artist": "Seekae",
+      "poster": "https://villagesounds.com/app/uploads/2017/11/seekae-1.jpg",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 37,
+      "name": "Six forty seven ",
+      "artist": "Instupendo",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcmcPRL0O-z0MXeMdPj646U88bs7o7uzK0hVkDYO9zRZNvJU0p ",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 38,
+      "name": " Romantic lover",
+      "artist": "Eye dress",
+      "poster": "https://cdn.pastemagazine.com/www/articles/eyedress-stillinlovebts-main.jpg",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 39,
+      "name": "Jealous",
+      "artist": "Eye dress",
+      "poster": "https://thefader-res.cloudinary.com/private_images/w_750,c_limit,f_auto,q_auto:eco/DSCF2680_jfvnl6/DSCF2680_jfvnl6.jpg",
+      "category": "Rock",
+      "mp3": ""
+    },
+    {
+      "id": 40,
+      "name": "Nobody wants to die",
+      "artist": "Rival sons",
+      "poster": "https://lastfm.freetls.fastly.net/i/u/ar0/8c48ede25005549af3c3767ea8a36aca.jpg",
+      "category": "Rock",
+      "mp3": ""
+    }
+  ],
+  "genres": [
+    {
+      "genre": "Pop",
+      "poster": "https://img.freepik.com/premium-vector/pop-music-vintage-3d-vector-lettering-retro-bold-font-typeface-pop-art-stylized-text-old-school-style-letters-numbers-symbols-elements-pack-90s-80s-poster-banner-pine-color-background_106317-21305.jpg?w=740"
+    },
+    {
+      "genre": "Country",
+      "poster": "https://media.istockphoto.com/id/1199975287/vector/country-music-sign-cowboy-hat-with-country-music-lettering-on-black-background.jpg?s=612x612&w=0&k=20&c=4r2p2VhTBgZVXdPqil19Nx5gI0YIWzpFFg_oLYI9lE4="
+    },
+    {
+      "genre": "Rock",
+      "poster": "https://media.istockphoto.com/id/958707426/vector/monochrome-antique-hipster-vintage-label-badge-crest-rock-and-roll-for-flyer-poster-logo-or-t.jpg?s=612x612&w=0&k=20&c=XYrvSRZxv5bQvHunItrILis7hyZQPbSNXQmtHvaTKZU="
+    },
+    {
+      "genre": "RnB",
+      "poster": "https://media.istockphoto.com/id/1203264140/vector/rhythm-and-blues-vintage-3d-vector-lettering-retro-bold-font-typeface-pop-art-stylized-text.jpg?s=612x612&w=0&k=20&c=Ap-KXJxUyR4APJE5rnvF9DlpGIM9L1TCXRLf-wYtCn4="
+    },
+    {
+      "genre": "trap",
+      "poster": "https://i0.wp.com/www.six9ja.com/wp-content/uploads/2021/10/DJ-YK-%E2%80%93-Trap-Lanje-Beat.jpeg?fit=700%2C700&ssl=1"
+    },
+    {
+      "genre": "Afro Beats",
+      "poster": "https://flutymusic.com/wp-content/uploads/2020/02/afro-beats.jpg"
+    },
+    {
+      "genre": "Progressive House",
+      "poster": "https://ms.bestservice.com/w09/img_500x500/00004709.webp"
+    }
+  ],
+  "playlists": [
+    {
+      "name": "RoadTrip",
+      "songs": [],
+      "id": 1
+    },
+    {
+      "name": "Hiking",
+      "songs": [],
+      "id": 2
+    }
+  ]
 }
-

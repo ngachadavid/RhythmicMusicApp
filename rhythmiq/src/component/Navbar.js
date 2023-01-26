@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({playlist}) => {
+
   return (
     <nav className="navposition">
       <div>
@@ -23,17 +24,18 @@ const Navbar = () => {
           <Link to='/library'>Your Library</Link>
         </li>
         <li>
-          <i className="bi bi-file-plus"></i>
-          <Link to='/playlist'>Create Playlist</Link>
-        </li>
-        <li>
-          <i className="bi bi-balloon-heart-fill"></i>
-          <Link to='/liked-songs'>Liked Songs</Link>
-        </li>
-        <li>
           <i className="bi bi-balloon-heart-fill"></i>
           <Link to='/player'>Player</Link>
         </li>
+        <li>
+          <i className="bi bi-file-plus"></i>
+          <Link to='/playlist'>My Playlists</Link>
+        </li>
+      </ul>
+      <ul className='text-light' id='playlist'>
+        {playlist.length===0?<li>No playlist</li>:playlist.map(item=><li key={item.id} className='py-1'><a href=""></a>{item.name}</li>)}
+
+
       </ul>
     </nav>
   )
