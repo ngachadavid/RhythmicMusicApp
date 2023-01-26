@@ -20,7 +20,7 @@ const [songs, setSongs]=useState([])
     <div className="App">
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='/' element={<Home songs={songs}/>}></Route>
         <Route path='/library' element={<Library songs={songs}/>}></Route>
         <Route path='/playlist' element={<Playlist songs={songs} />}></Route>
         <Route path='/player' element={<h2>put the player component here, player</h2>}></Route>
