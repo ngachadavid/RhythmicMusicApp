@@ -67,7 +67,7 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
     navigator('/library')
 
   })
-  
+
 
   }
   function handleAddPlaylist(event){
@@ -105,13 +105,13 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
                 Add a New Playlist
               </Button>
             </div>
-            
+
             }
-            
+
           </div>
         </div>
       </div>
-      
+
 
       <Modal show={show} onHide={handleClose} className="text-center">
         <Modal.Header closeButton className="bg-success text-light">
@@ -128,13 +128,12 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
             </Button>
           </Form>
         </Modal.Body>
-         
+
       </Modal>
 
 
 
       <div className='px-5' style={{backgroundColor:"rgba(0, 0, 0, 0.1)", opacity:"1"}}>
-        <i class="bi bi-play-circle-fill h1 text-warning"></i>
         <div className="selected-playlist">
           {mySongs.length===0?<h5 className='text-center py-4'>Search any song to add to your playlist</h5>:
           <table class="table text-light">
