@@ -6,43 +6,20 @@ import PlaylistAdd from './PlaylistAdd';
 
 function Playlist({songs}) {
 
-  const [playSongs, setPlaySongs]= useEffect([])
-  function handleAddSong (selectedid) {
-    console.log(selectedid);
-    // console.log(songs)
-     songs.map(song => {
+ 
+  const [mySongs, setMySongs]=useState([])
+  const [title, setTitle]=useState([])
+  function handleAddSong(selectedid){
+    songs.map(song => {
       if (song.id === selectedid) {
-          setPlaySongs([...playSongs,song])
+         setMySongs([...mySongs, song])
       }
      })
-   
   }
-   
 
-    
-  
-    
-
-
-
-    const [newSongTitle, setNewSongTitle] = useState('');
-
-    function handleAddSong() {
-      const newSong = {
-        id: songs.length + 1,
-        title: newSongTitle,
-      };
-      // setSongs([...songs, newSong]);
-      setNewSongTitle('');
-    }
-
-    function handleDeleteSong(id) {
-    //   setSongs(songs.filter((song) => song.id !== id));
-    }
-  console.log(songs)
 
     return (
-      
+
       <div className="elementp theme-bg text-light">
       <div style={{backgroundColor:'#355E3B'}}>
         <div className="d-md-flex justify-content-start align-items-center px-4" style={{height:'40%'}}>
@@ -58,19 +35,13 @@ function Playlist({songs}) {
       </div>
 
 
-    );
-  }
-
-export default Playlist
-
-
       <div className='px-5' style={{backgroundColor:"rgba(0, 0, 0, 0.1)", opacity:"1"}}>
         <i class="bi bi-play-circle-fill h1 text-warning"></i>
         <div className="selected-playlist">
           <table class="table text-light">
             <thead>
               <tr>
-                
+
                 <th scope="col">Poster</th>
                 <th scope="col">Title</th>
                 <th scope="col">Artist</th>
@@ -78,11 +49,11 @@ export default Playlist
               </tr>
             </thead>
             <tbody>
-            {playSongs.map((song) =>  <PlaylistAdd song={song}
+            {mySongs.map((song) =>  <PlaylistAdd song={song}
             /> )}
-             
-          
-         
+
+
+
             </tbody>
           </table>
         </div>
@@ -97,7 +68,7 @@ export default Playlist
         <table class="table text-light">
             <thead>
               <tr>
-              
+
                 <th scope="col">Poster</th>
                 <th scope="col">Title</th>
                 <th scope="col">Artist</th>
@@ -108,17 +79,16 @@ export default Playlist
             {songs.map((song) =>  <PlayListDisplay song={song}
             addSong={handleAddSong}/> )}
             
+
             </tbody>
           </table>
         </div>
 
-    </div>      
+    </div>
 
 
 
     );
   }
-  
+
 export default Playlist
-
-
