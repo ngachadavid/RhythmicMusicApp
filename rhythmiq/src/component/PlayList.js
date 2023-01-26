@@ -34,6 +34,20 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
 
   const [mySongs, setMySongs]=useState(playsong)
   const [title, setTitle]=useState([])
+
+  const [searchTerm, setSearchTerm] = useState('');
+const [filteredData, setFilteredData] = useState([]);
+const [data, setData] = useState([]); 
+const [searchInput, setSearchInput] = useState('');
+
+
+function handleSearch(e) {
+    e.preventDefault();
+    setFilteredData(data.filter(item => item.name.includes(searchTerm)));
+  
+}
+ 
+
   const [show, setShow] = useState(false);
   const [playlistName, setPlaylistName]= useState({
             "name":"yes",
@@ -42,6 +56,7 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
 
 
 
@@ -65,6 +80,14 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
         }
       }
 
+//     function handleAddSong() {
+//       const newSong = {
+//         id: songs.length + 1,
+//         title: newSongTitle,
+//       };
+//       // setSongs([...songs, newSong]);
+//       setNewSongTitle('');
+//     }
 
      })
   }
@@ -171,9 +194,6 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
             <tbody>
 
               {mySongs.map((song) =>  <PlaylistAdd song={song} onDisplay={handleRemoveSong}/> )}
-
-
-
             </tbody>
           </table>
           }
@@ -181,10 +201,25 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
         </div>
       </div>
       {/* search input */}
-      <div className='px-5 py-2'>
-        <input type="text" />
-      <button className="btn btn-success ms-5 btn-sm">Add Song</button>
-      </div>
+      
+            
+
+          
+
+    <div>
+      <form onSubmit={handleSearch}> 
+     <input type="search"
+              placeholder="Search here"  />
+          <button type="submit">Search</button>
+      </form>
+   
+      {filteredData.map(item => (
+          <div key={item.id}>
+              {item.name}
+          </div>
+      ))}
+    </div>
+  
       {/* searched items table */}
       <div className="searched-playlist px-5">
         <table class="table text-light">
