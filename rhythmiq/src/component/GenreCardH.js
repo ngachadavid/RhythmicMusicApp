@@ -1,10 +1,19 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
-const GenreCardH = ({category}) => {
+const GenreCardH = ({category, songs, onSelection}) => {
+  const navigator=useNavigate()
   const {genre, poster}= category
+function handleClick(){
+  console.log(genre)
+  let chosenGenre=songs.filter(song=>song.category===genre)
+  onSelection(chosenGenre)
+  navigator('/playlist')
+
+}
   
   return (
-    <div className="col col-md-6 col-lg-3">
+    <div className="col col-md-6 col-lg-3" onClick={handleClick}>
               <div className="card bg-dark" style={{width: "12rem", height:"12%", cursor:"pointer"}}  >
                 <img className="card-img-top" src={poster} alt="Card image cap" />
                 <div className="card-body bg-dark">
