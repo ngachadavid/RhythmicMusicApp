@@ -4,9 +4,8 @@ import PlaylistAdd from './PlaylistAdd';
 
 
 
-function Playlist({songs}) {
+function Playlist({songs, selected}) {
 
- 
   const [mySongs, setMySongs]=useState([])
   const [title, setTitle]=useState([])
   function handleAddSong(selectedid){
@@ -15,6 +14,10 @@ function Playlist({songs}) {
          setMySongs([...mySongs, song])
       }
      })
+  }
+  function handleRemoveSong(id){
+    let news= mySongs.filter(song=>song.id!==id)
+    setMySongs(news)
   }
 
 
@@ -49,7 +52,7 @@ function Playlist({songs}) {
               </tr>
             </thead>
             <tbody>
-            {mySongs.map((song) =>  <PlaylistAdd song={song}
+            {mySongs.map((song) =>  <PlaylistAdd song={song} onDisplay={handleRemoveSong}
             /> )}
 
 
@@ -78,7 +81,7 @@ function Playlist({songs}) {
             <tbody>
             {songs.map((song) =>  <PlayListDisplay song={song}
             addSong={handleAddSong}/> )}
-            
+
 
             </tbody>
           </table>
