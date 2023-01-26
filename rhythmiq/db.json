@@ -356,6 +356,11 @@
       "name": "RoadTrip",
       "songs": [],
       "id": 1
+    },
+    {
+      "name": "Hiking",
+      "songs": [],
+      "id": 2
     }
   ]
 }
