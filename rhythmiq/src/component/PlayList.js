@@ -5,6 +5,7 @@ import PlaylistAdd from './PlaylistAdd';
 
 
 function Playlist({songs}) {
+
   const [playSongs, setPlaySongs]= useEffect([])
   function handleAddSong (selectedid) {
     console.log(selectedid);
@@ -21,6 +22,25 @@ function Playlist({songs}) {
     
   
     
+
+
+
+    const [newSongTitle, setNewSongTitle] = useState('');
+
+    function handleAddSong() {
+      const newSong = {
+        id: songs.length + 1,
+        title: newSongTitle,
+      };
+      // setSongs([...songs, newSong]);
+      setNewSongTitle('');
+    }
+
+    function handleDeleteSong(id) {
+    //   setSongs(songs.filter((song) => song.id !== id));
+    }
+  console.log(songs)
+
     return (
       
       <div className="elementp theme-bg text-light">
@@ -36,6 +56,13 @@ function Playlist({songs}) {
           </div>
         </div>
       </div>
+
+
+    );
+  }
+
+export default Playlist
+
 
       <div className='px-5' style={{backgroundColor:"rgba(0, 0, 0, 0.1)", opacity:"1"}}>
         <i class="bi bi-play-circle-fill h1 text-warning"></i>
@@ -88,7 +115,10 @@ function Playlist({songs}) {
     </div>      
 
 
+
     );
   }
   
 export default Playlist
+
+
