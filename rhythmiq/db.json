@@ -354,66 +354,8 @@
   "playlists": [
     {
       "name": "RoadTrip",
-      "songs": [
-        {
-          "id": 29,
-          "name": "Written in the sand",
-          "artist": "Old Dominion",
-          "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2F70fe4a4a8c95627f3a03e92696efee70.1000x1000x1.jpg",
-          "category": "Country",
-          "mp3": "../Music/Old Dominion-Written in the sand.mp3"
-        },
-        {
-          "id": 30,
-          "name": "The Trouble With Girls",
-          "artist": "Scotty McCreery ",
-          "poster": "https://t2.genius.com/unsafe/288x288/https%3A%2F%2Fimages.genius.com%2Fdb5239c900df3f7ecd597baf351552f9.492x492x1.jpg",
-          "category": "Country",
-          "mp3": "../Music/Scotty McCreery - The Trouble With Girls.mp3"
-        },
-        {
-          "id": 31,
-          "name": "Patience ",
-          "artist": "Guns N Roses",
-          "poster": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/GNR_London_Stadium_2017_3_%28cropped%29.jpg/300px-GNR_London_Stadium_2017_3_%28cropped%29.jpg",
-          "category": "Rock",
-          "mp3": ""
-        }
-      ],
-      "id": 1
-    },
-    {
-      "name": "Christmas",
-      "songs": [
-        {
-          "id": 36,
-          "name": "Test and Recognize",
-          "artist": "Seekae",
-          "poster": "https://villagesounds.com/app/uploads/2017/11/seekae-1.jpg",
-          "category": "Rock",
-          "mp3": ""
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "Punk",
-      "songs": [
-        {
-          "id": "1",
-          "name": "I Hate U",
-          "artist": "SZA",
-          "poster": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/f6/4f/19/f64f19b7-3ab4-ad2d-5a67-ca196d278b44/886449787043.jpg/316x316bb.webp",
-          "category": "RnB",
-          "mp3": ".mp3"
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": "Moody",
       "songs": [],
-      "id": 4
+      "id": 1
     }
   ]
 }

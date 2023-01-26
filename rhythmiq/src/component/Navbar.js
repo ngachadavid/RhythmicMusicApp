@@ -34,7 +34,7 @@ const Navbar = ({playlist}) => {
         </li>
         <li>
           <i className="bi bi-file-plus"></i>
-          <Link to='/playlist'>Create Playlist</Link>
+          <Link to='/playlist'>My Playlists</Link>
         </li>
       </ul>
       <ul className='text-light' id='playlist'>

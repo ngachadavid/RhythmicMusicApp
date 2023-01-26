@@ -101,6 +101,9 @@ function Playlist({songs, selected, onAddPlaylist, playlistTitle, playsong}) {
             <div>
               <p>Playlist</p>
             <h2>{playlistTitle}</h2>
+            <Button variant="warning" onClick={handleShow}>
+                Add a New Playlist
+              </Button>
             </div>
             
             }
