@@ -1,23 +1,34 @@
-import React from "react";
-// import './Search.css'
+import React, { Component } from "react";
 
-function Search({search, setSearch}) {
-  function handleSearch(event){
-    setSearch(event.target.value)
-  } 
+class Search extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      searchText: "Search songs",
+    };
+  }
 
-  return (
-    <div className="ui large fluid icon input">
-      <input
-        type="text"
-        placeholder="Search your Songs"
-        value={search}
-        onChange={handleSearch}
-      />
-      <i className="circular search link icon"></i>
-    </div>
-  );
+  handleChange = (event) => {
+    this.setState({ searchText: event.target.value });
+  };
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+    this.props.onSearch(this.state.searchText);
+  };
+
+  render() {
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <input
+          type="text"
+          value={this.state.searchText}
+          onChange={this.handleChange}
+        />
+        <button type="submit">Search</button>
+      </form>
+    );
+  }
 }
 
 export default Search;
-
