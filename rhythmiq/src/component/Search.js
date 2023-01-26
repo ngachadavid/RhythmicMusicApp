@@ -11,7 +11,7 @@ return (
    <div className="ui large fluid icon input">
      <input
        type="text"
-       placeholder="Search your Songs"
+       placeholder="Search what you wanna listen to"
        value={search}
        onChange={handleSearch}
      />
