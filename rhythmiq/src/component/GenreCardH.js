@@ -1,11 +1,11 @@
 import React from 'react'
 
-const GenreCardH = ({category, songs}) => {
+const GenreCardH = ({category, songs, onSelection}) => {
   const {genre, poster}= category
 function handleClick(){
   console.log(genre)
   let chosenGenre=songs.filter(song=>song.category===genre)
-  console.log(chosenGenre)
+  onSelection(chosenGenre)
 }
   
   return (

@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 
 import GenreCardH from './GenreCardH'
 
-const Home = ({songs}) => {
+const Home = ({songs, onSelection}) => {
   const [genres, setGenres]= useState([])
   useEffect(()=>{
     fetch('http://localhost:3000/genres').then(res=>res.json())
@@ -19,7 +19,7 @@ const Home = ({songs}) => {
         <div className="container ">
           <div className="row g-3">
 
-            {genres.map(genre=><GenreCardH category={genre} songs={songs} key={genre.genre}/>)}
+            {genres.map(genre=><GenreCardH onSelection={onSelection}category={genre} songs={songs} key={genre.genre}/>)}
 
 
 
