@@ -13,7 +13,11 @@ function App() {
 
   const navigator=useNavigate()
 const [songs, setSongs]=useState([])
+
 const [playlist, setPlaylist]=useState([])
+
+const [search, setSearch]=useState("")
+
 const [selectedGenre, setSelectedGenre]=useState([])
 const [playlistName, setPlaylistName]=useState('')
 const [playsong, setPlaysong]=useState([])
@@ -31,6 +35,7 @@ const [playlistId, setPlaylistid]= useState(0)
   function handleSelection(selected){
     setSelectedGenre(selected)
   }
+
   function addPlaylistname(obj){
     setPlaylist([...playlist, obj])
   }
@@ -48,6 +53,8 @@ const [playlistId, setPlaylistid]= useState(0)
     })
     
   }
+  
+
   return (
     <div className="App">
       <Navbar playlist={playlist}/>
@@ -56,7 +63,7 @@ const [playlistId, setPlaylistid]= useState(0)
         <Route path='/library' element={<Library playlists={playlist} selectedPlaylist={handleSelectedPlaylist}/>}></Route>
         <Route path='/playlist' element={<Playlist songs={songs} selected={selectedGenre} onAddPlaylist={addPlaylistname} playlistTitle={playlistName} playsong={playsong} playlistId={playlistId}/>}></Route>
         <Route path='/player' element={<h2>put the player component here, player</h2>}></Route>
-        <Route path='/search' element={<Search songs={songs}/>}></Route>
+        <Route path='/search' element={<Search songs={songs} search = {search} setSearch = {setSearch}></Search>}></Route>
       </Routes>
     </div>
   );

@@ -1,34 +1,32 @@
-import React, { Component } from "react";
+import React from "react";
+import SongItem from "./SongItem";
 
-class Search extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      searchText: "Search songs",
-    };
-  }
+function Search({search, setSearch, songs}) {
+function handleSearch(event){
+  setSearch(event.target.value)
+}
 
-  handleChange = (event) => {
-    this.setState({ searchText: event.target.value });
-  };
-
-  handleSubmit = (event) => {
-    event.preventDefault();
-    this.props.onSearch(this.state.searchText);
-  };
-
-  render() {
-    return (
-      <form onSubmit={this.handleSubmit}>
-        <input
-          type="text"
-          value={this.state.searchText}
-          onChange={this.handleChange}
-        />
-        <button type="submit">Search</button>
-      </form>
-    );
-  }
+return (
+  <div className="elementp text-light text-center theme-bg">
+    <div className="ui large fluid icon input py-5">
+    
+    <input
+      type="text"
+      placeholder="Search Songs"
+      value={search}
+      onChange={handleSearch}
+    />
+    <i className="circular search link icon"></i>
+  </div>              
+    <div className="container">
+          <div className="row gap-3">
+        {/* <SongItem/> */}
+      {songs.map(song=><SongItem song = {song}/>)}
+          </div>
+        </div>
+  </div>
+);
 }
 
 export default Search;
+ 
