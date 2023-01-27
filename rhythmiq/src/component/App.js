@@ -14,6 +14,7 @@ import Player from "./Player";
 
 
 import {Routes, Route, useNavigate} from "react-router-dom";
+import Player from "./Player";
 
 
 function App() {
@@ -69,7 +70,7 @@ const [playlistId, setPlaylistid]= useState(0)
         <Route path='/' element={<Home songs={songs} onSelection={handleSelection}/>}></Route>
         <Route path='/library' element={<Library playlists={playlist} selectedPlaylist={handleSelectedPlaylist}/>}></Route>
         <Route path='/playlist' element={<Playlist songs={songs} selected={selectedGenre} onAddPlaylist={addPlaylistname} playlistTitle={playlistName} playsong={playsong} playlistId={playlistId}/>}></Route>
-        <Route path='/player' element={<h2>put the player component here, player</h2>}></Route>
+        <Route path='/player' element={<Player/>}></Route>
         <Route path='/search' element={<Search songs={songs} search = {search} setSearch = {setSearch}></Search>}></Route>
 
       </Routes>
