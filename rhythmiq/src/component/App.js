@@ -37,8 +37,8 @@ const [playlistId, setPlaylistid]= useState(0)
     fetch('http://localhost:3000/playlists').then(res=>res.json())
     .then(collection=>setPlaylist(collection))
   }, [])
- 
-  
+
+
   function handleSelection(selected){
     setSelectedGenre(selected)
   }
