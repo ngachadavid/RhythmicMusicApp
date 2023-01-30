@@ -1,5 +1,3 @@
-//Player.js
-
 import React, { useState, useRef, useEffect } from "react";
 import PlayerDetails from "./PlayerDetails";
 import PlayerControls from "./PlayerControls";
@@ -51,12 +49,12 @@ function Player(props) {
 
         <div className="nextsong-details">
           <img
-            src={props.songs[props.nextSongIndex].img_src}
-            alt={props.songs[props.nextSongIndex].title}
+            src={props.songs[props.nextSongIndex].poster}
+            alt={props.songs[props.nextSongIndex].name}
             style={{ width: "4em", height: "auto" }}
           />
           <p>
-            <b>{props.songs[props.nextSongIndex].title} </b>&nbsp; by &nbsp;
+            <b>{props.songs[props.nextSongIndex].name} </b>&nbsp; by &nbsp;
             <b>{props.songs[props.nextSongIndex].artist}</b>
             {/* &nbsp; from album
             &nbsp; */}
@@ -105,7 +103,6 @@ function Player(props) {
           </ul>
         </div>
 
-        {/* <h4>Lofi Music Player React </h4> */}
       </div>
     </>
   );
