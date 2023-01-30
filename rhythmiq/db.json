@@ -361,6 +361,11 @@
       "name": "Hiking",
       "songs": [],
       "id": 2
+    },
+    {
+      "name": "Swimming",
+      "songs": [],
+      "id": 3
     }
   ]
 }
