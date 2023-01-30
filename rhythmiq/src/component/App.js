@@ -18,24 +18,24 @@ function App() {
 
   const navigator=useNavigate()
 const [songs, setSongs]=useState([
-  {
-    "title": "Out of Time",
-    "artist": "The Weeknd",
-    "img_src": "./songs-images/Drake- Fire&Desire.png",
-    "src": "./songs/Drake - Fire & Desire.mp3"
-},
-{
-    "title": "SZA",
-    "artist": "I HateU",
-    "img_src": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/f6/4f/19/f64f19b7-3ab4-ad2d-5a67-ca196d278b44/886449787043.jpg/316x316bb.webp",
-    "src": "./songs/SZA - I Hate U.mp3"
-},
-{
-    "title": "Fire&Desire",
-    "artist": "Drake",
-    "img_src": "./songs-images/Drake- Fire&Desire.png",
-    "src": "./songs/Drake - Fire & Desire.mp3"
-}
+//   {
+//     "title": "Out of Time",
+//     "artist": "The Weeknd",
+//     "img_src": "./songs-images/Drake- Fire&Desire.png",
+//     "src": "./songs/Drake - Fire & Desire.mp3"
+// },
+// {
+//     "title": "SZA",
+//     "artist": "I HateU",
+//     "img_src": "https://is2-ssl.mzstatic.com/image/thumb/Music116/v4/f6/4f/19/f64f19b7-3ab4-ad2d-5a67-ca196d278b44/886449787043.jpg/316x316bb.webp",
+//     "src": "./songs/SZA - I Hate U.mp3"
+// },
+// {
+//     "title": "Fire&Desire",
+//     "artist": "Drake",
+//     "img_src": "./songs-images/Drake- Fire&Desire.png",
+//     "src": "./songs/Drake - Fire & Desire.mp3"
+// }
 ])
 
 const [currentSongIndex,setCurrentSongIndex] = useState(0);
