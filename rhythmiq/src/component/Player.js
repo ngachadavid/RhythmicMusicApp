@@ -45,7 +45,7 @@ import source from "../Music/Yeat - Out the way.mp3";
 
 function Player(props) {
   const audioElement = useRef(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
    const sites = [
     one,
     two,
@@ -149,15 +149,13 @@ function Player(props) {
           <p>
             <b>{props.songs[props.nextSongIndex].name} </b>&nbsp; by &nbsp;
             <b>{props.songs[props.nextSongIndex].artist}</b>
-            {/* &nbsp; from album
-            &nbsp; */}
-            {/* <b>{props.songs[props.nextSongIndex].album}</b> */}
+            
           </p>
         </div>
       </p>
       <div className="music-player">
         <audio
-        autoPlay
+        autoplay
           src={mp3}
           ref={audioElement}
         ></audio>

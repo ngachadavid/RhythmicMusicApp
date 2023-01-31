@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -36,7 +36,6 @@ body-position {
   list-style: none;
   text-decoration: none;
   margin: 2rem 0;
-
 }
 
 .navposition ul li a {
@@ -44,14 +43,10 @@ body-position {
   color: rgb(148, 143, 143);
   font-size: 0.9rem;
   font-weight: bold;
-
 }
 
 .navposition ul li a:hover {
-
   color: rgb(211, 177, 28);
-
-
 }
 
 .navposition ul li .bi {
@@ -77,7 +72,6 @@ nav>div i {
 
   width: 80%;
   margin-left: 20%;
-
 }
 
 .theme-bg {
@@ -89,28 +83,59 @@ nav>div i {
 }
 
 .bg-decided {
-  background-color: rgb(48, 112, 107);
+  background-color: rgb(15, 141, 141);
 }
 
-@media (max-width:68rem) {
+#playlist li {
+  margin: 0;
+  cursor: pointer;
+}
+
+#playlist li:hover {
+  color: green;
+}
+
+.top-playlist {
+  background: linear-gradient(rgba(95, 69, 12, 0.7), rgba(12, 88, 63, 0.7));
+}
+
+.top-hover {
+  position: relative;
+}
+
+.top-hover::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.1s;
+
+}
+
+.top-hover:hover::after {
+
+  background: linear-gradient(rgba(57, 255, 222, 0.2), rgba(70, 255, 224, 0.2)),
+    url("./Music/play.svg") no-repeat;
+  background-position: center;
+  background-size: 60% 40%;
+
+}
+
+@media (max-width: 68rem) {
   .navposition {
-
     width: 30%;
-
   }
 
   nav>div {
-
     flex-direction: column;
 
     margin-left: 1rem;
   }
 
   .elementp {
-
     width: 70%;
     margin-left: 30%;
-
   }
-
 }
