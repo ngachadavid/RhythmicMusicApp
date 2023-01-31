@@ -19,10 +19,7 @@ a {
 body {
   font-family: "Poppins", sans-serif;
   color: #071739;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
   text-align: center;
   /* background: url("https://picsum.photos/200/300") repeat 0 0; */
   animation: background-scroll 6s infinite;
@@ -158,9 +155,20 @@ body {
 }
 
 /* Image */
+.details-img {
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 20px 0;
+  
+}
 .details-img--image {
-  width: 25rem;
-  height: auto;
+  width: 100%;
+  
+  height: 100%;
 }
 
 /* Artist Info */
@@ -239,6 +247,7 @@ body {
   flex-direction: row;
   padding: 1px;
   height: 4em;
+  margin-left: 30%;
 }
 
 .nextsong-details img {
