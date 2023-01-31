@@ -1,62 +1,56 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import Library from "./Library";
-import './Player.css';
-
-
+import "./Player.css";
 import Search from "./Search";
-
 import Playlist from "./PlayList";
 import Home from "./Home";
 import Navbar from "./Navbar";
-
-import {Routes, Route, useNavigate} from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Player from "./Player";
 
-
 function App() {
+  const navigator = useNavigate();
+  const [songs, setSongs] = useState([]);
+  const [currentSongIndex, setCurrentSongIndex] = useState(0);
+  const [nextSongIndex, setNextSongIndex] = useState(currentSongIndex + 1);
+  const [playlist, setPlaylist] = useState([]);
+  const [search, setSearch] = useState("");
+  const [selectedGenre, setSelectedGenre] = useState([]);
+  const [playlistName, setPlaylistName] = useState("");
+  const [playsong, setPlaysong] = useState([]);
+  const [playlistId, setPlaylistid] = useState(0);
 
-  const navigator=useNavigate()
-const [songs, setSongs]=useState([])
+  useEffect(() => {
+    setNextSongIndex(() => {
+      if (currentSongIndex + 1 > songs.length - 1) {
+        return 0;
+      } else {
+        return currentSongIndex + 1;
+      }
+    });
+  }, [currentSongIndex]);
 
-const [currentSongIndex,setCurrentSongIndex] = useState(0);
-const [nextSongIndex,setNextSongIndex] = useState(currentSongIndex + 1);
-const [playlist, setPlaylist]=useState([])
+  useEffect(() => {
+    fetch("http://localhost:3000/song")
+      .then((res) => res.json())
+      .then((songs) => setSongs(songs));
+  }, []);
 
-const [search, setSearch]=useState("")
+  useEffect(() => {
+    fetch("http://localhost:3000/playlists")
+      .then((res) => res.json())
+      .then((collection) => setPlaylist(collection));
+  }, []);
 
-const [selectedGenre, setSelectedGenre]=useState([])
-const [playlistName, setPlaylistName]=useState('')
-const [playsong, setPlaysong]=useState([])
-const [playlistId, setPlaylistid]= useState(0)
-useEffect(()=>{
-  setNextSongIndex(()=>{
-  if (currentSongIndex + 1 >songs.length - 1 ){
-    return 0;
-  } else{
-    return currentSongIndex + 1;
-  }
-});
-},[currentSongIndex])
-
-
-  useEffect(()=>{
-    fetch('http://localhost:3000/song').then(res=>res.json())
-    .then(songs=>setSongs(songs))
-  }, [])
-  useEffect(()=>{
-    fetch('http://localhost:3000/playlists').then(res=>res.json())
-    .then(collection=>setPlaylist(collection))
-  }, [])
-
-
-  function handleSelection(selected){
-    setSelectedGenre(selected)
+  function handleSelection(selected) {
+    setSelectedGenre(selected);
   }
 
-  function addPlaylistname(obj){
-    setPlaylist([...playlist, obj])
+  function addPlaylistname(obj) {
+    setPlaylist([...playlist, obj]);
   }
+
   function handleSelectedPlaylist(id) {
     playlist.map((item) => {
       if (item.id === id) {
@@ -67,8 +61,9 @@ useEffect(()=>{
       }
     });
   }
-function OnclickedInAdd(id) {
-    setCurrentSongIndex(()=>id-1);
+
+  function OnclickedInAdd(id) {
+    setCurrentSongIndex(() => id - 1);
   }
 
   function handleAddNewSong(song) {
@@ -76,7 +71,7 @@ function OnclickedInAdd(id) {
   }
 
   return (
-     <div className="App">
+    <div className="App">
       <Navbar playlist={playlist} selectedPlaylist={handleSelectedPlaylist} />
       <Routes>
         <Route
@@ -110,7 +105,17 @@ function OnclickedInAdd(id) {
             />
           }
         ></Route>
-        <Route path='/player' element={<Player currentSongIndex={currentSongIndex} setCurrentSongIndex={setCurrentSongIndex} nextSongIndex={nextSongIndex} songs={songs}/>}></Route>
+        <Route
+          path="/player"
+          element={
+            <Player
+              currentSongIndex={currentSongIndex}
+              setCurrentSongIndex={setCurrentSongIndex}
+              nextSongIndex={nextSongIndex}
+              songs={songs}
+            />
+          }
+        ></Route>
         <Route
           path="/search"
           element={
@@ -128,4 +133,3 @@ function OnclickedInAdd(id) {
 }
 
 export default App;
-

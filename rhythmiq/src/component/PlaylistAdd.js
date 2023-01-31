@@ -6,7 +6,7 @@ function PlaylistAdd({ song, onDisplay, clickedInAdd }) {
   function removeSong() {
     onDisplay(song.id);
   }
-  
+
   function handleClick() {
     clickedInAdd(song.id);
     navigator("/player");

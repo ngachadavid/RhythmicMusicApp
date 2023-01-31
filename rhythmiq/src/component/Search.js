@@ -6,7 +6,7 @@ function Search({ songs, clickedInAdd }) {
   function handleSearch(event) {
     setSearch(event.target.value);
   }
-  
+
   let found = songs.filter((item) => {
     let itemName = item.name.toLocaleLowerCase();
     let itemCategory = item.category.toLocaleLowerCase();

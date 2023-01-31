@@ -46,7 +46,7 @@ import source from "../Music/Yeat - Out the way.mp3";
 function Player(props) {
   const audioElement = useRef(null);
   const [isPlaying, setIsPlaying] = useState(true);
-   const sites = [
+  const sites = [
     one,
     two,
     three,
@@ -88,16 +88,15 @@ function Player(props) {
     thirtynine,
     forty,
   ];
-  let nrm = props.songs[props.currentSongIndex].mp3
- 
+  let nrm = props.songs[props.currentSongIndex].mp3;
+
   let path = sites.filter((site) => {
     if (site.includes(nrm)) {
       return site;
     }
   });
   let mp3 = path[0];
-  console.log(mp3)
-
+  console.log(mp3);
 
   useEffect(() => {
     if (isPlaying) {
@@ -149,16 +148,11 @@ function Player(props) {
           <p>
             <b>{props.songs[props.nextSongIndex].name} </b>&nbsp; by &nbsp;
             <b>{props.songs[props.nextSongIndex].artist}</b>
-            
           </p>
         </div>
       </p>
       <div className="music-player">
-        <audio
-        autoplay
-          src={mp3}
-          ref={audioElement}
-        ></audio>
+        <audio autoplay src={mp3} ref={audioElement}></audio>
         <PlayerDetails song={props.songs[props.currentSongIndex]} />
 
         <PlayerControls
@@ -194,14 +188,11 @@ function Player(props) {
             </li>
           </ul>
         </div>
-
       </div>
     </div>
   );
 }
 export default Player;
-
-
 
 // import React from 'react'
 // // import ReactAudioPlayer from 'react-audio-player';

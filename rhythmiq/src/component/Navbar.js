@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ playlist, selectedPlaylist }) => {
-
   function handleClick(event) {
     for (let i = 0; i < playlist.length; i++) {
       if (playlist[i].name === event.target.innerHTML) {
