@@ -133,7 +133,7 @@ function Player(props) {
   };
 
   return (
-    <div className="elementp theme-bg">
+    <div className=" theme-bg">
       <p>
         <div className="text-anim text-light">
           <strong>Upcoming Song:</strong>
@@ -202,7 +202,7 @@ export default Player;
 // const Player = ({songPath}) => {
 //   const cool="../Music/WildVibes  Martin Miller ft Arild Aas  Far From You.mp3"
 //   return (
-//     <div className='elementp theme-bg p-5'>
+//     <div className=' theme-bg p-5'>
 //       <AudioPlayer
 //     autoPlay
 //     src={require("../Music/WildVibes  Martin Miller ft Arild Aas  Far From You.mp3")}

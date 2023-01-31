@@ -12,7 +12,7 @@ const Home = ({ songs, onSelection }) => {
 
   return (
     <div className="body-position">
-      <div className="elementp theme-bg">
+      <div className=" theme-bg">
         <div className="text-light">
           <h5 className="py-3 ms-3">Rhythmiq Genres</h5>
           <div className="container ">

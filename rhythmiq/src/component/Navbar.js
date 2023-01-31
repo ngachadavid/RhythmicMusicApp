@@ -12,9 +12,9 @@ const Navbar = ({ playlist, selectedPlaylist }) => {
 
   return (
     <nav className="navposition">
-      <div>
+      <div className="d-md-flex align-items-center justify-content-between mt-3 ms-3">
         <i className="bi bi-vinyl-fill"></i>
-        <h4 className="text-warning mt-4 ms-3 ">Rhythmiq</h4>
+        <h4 className="text-warning">Rhythmiq</h4>
       </div>
 
       <ul>

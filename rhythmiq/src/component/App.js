@@ -71,64 +71,73 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Navbar playlist={playlist} selectedPlaylist={handleSelectedPlaylist} />
-      <Routes>
-        <Route
-          path="/"
-          element={<Home songs={songs} onSelection={handleSelection} />}
-        ></Route>
-        <Route
-          path="/library"
-          element={
-            <Library
-              playlists={playlist}
-              selectedPlaylist={handleSelectedPlaylist}
-            />
-          }
-        ></Route>
-        <Route
-          path="/playlist"
-          element={
-            <Playlist
-              songs={songs}
-              selected={selectedGenre}
-              onAddPlaylist={addPlaylistname}
-              playlistTitle={playlistName}
-              playsong={playsong}
-              playlistId={playlistId}
-              clickedInAdd={OnclickedInAdd}
-              playlist={playlist}
-              addNewSong={handleAddNewSong}
-              setSearch={setSearch}
-              search={search}
-            />
-          }
-        ></Route>
-        <Route
-          path="/player"
-          element={
-            <Player
-              currentSongIndex={currentSongIndex}
-              setCurrentSongIndex={setCurrentSongIndex}
-              nextSongIndex={nextSongIndex}
-              songs={songs}
-            />
-          }
-        ></Route>
-        <Route
-          path="/search"
-          element={
-            <Search
-              songs={songs}
-              search={search}
-              setSearch={setSearch}
-              clickedInAdd={OnclickedInAdd}
-            ></Search>
-          }
-        ></Route>
-      </Routes>
-    </div>
+    <>
+      <div class="row theme-bg">
+        <div class="navgrid col-3 col-lg-2">
+          <Navbar
+            playlist={playlist}
+            selectedPlaylist={handleSelectedPlaylist}
+          />
+        </div>
+        <div class="bodygrid col-9  col-lg-10">
+          <Routes>
+            <Route
+              path="/"
+              element={<Home songs={songs} onSelection={handleSelection} />}
+            ></Route>
+            <Route
+              path="/library"
+              element={
+                <Library
+                  playlists={playlist}
+                  selectedPlaylist={handleSelectedPlaylist}
+                />
+              }
+            ></Route>
+            <Route
+              path="/playlist"
+              element={
+                <Playlist
+                  songs={songs}
+                  selected={selectedGenre}
+                  onAddPlaylist={addPlaylistname}
+                  playlistTitle={playlistName}
+                  playsong={playsong}
+                  playlistId={playlistId}
+                  clickedInAdd={OnclickedInAdd}
+                  playlist={playlist}
+                  addNewSong={handleAddNewSong}
+                  setSearch={setSearch}
+                  search={search}
+                />
+              }
+            ></Route>
+            <Route
+              path="/player"
+              element={
+                <Player
+                  currentSongIndex={currentSongIndex}
+                  setCurrentSongIndex={setCurrentSongIndex}
+                  nextSongIndex={nextSongIndex}
+                  songs={songs}
+                />
+              }
+            ></Route>
+            <Route
+              path="/search"
+              element={
+                <Search
+                  songs={songs}
+                  search={search}
+                  setSearch={setSearch}
+                  clickedInAdd={OnclickedInAdd}
+                ></Search>
+              }
+            ></Route>
+          </Routes>
+        </div>
+      </div>
+    </>
   );
 }
 

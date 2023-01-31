@@ -24,7 +24,7 @@ function Search({ songs, clickedInAdd }) {
   });
 
   return (
-    <div className="elementp text-light text-center theme-bg">
+    <div className=" text-light text-center theme-bg">
       <div className="ui large fluid icon input py-5">
         <input
           className="p-2"

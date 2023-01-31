@@ -3,7 +3,7 @@ import LibraryItem from "./LibraryItem";
 
 const Library = ({ playlists, selectedPlaylist }) => {
   return (
-    <div className="elementp text-light theme-bg">
+    <div className=" text-light theme-bg">
       <h3 className="py-3 text-center">Playlist</h3>
       <div className="container">
         <div className="row g-3">

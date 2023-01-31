@@ -112,7 +112,7 @@ function Playlist({
   });
 
   return (
-    <div className="elementp theme-bg text-light">
+    <div className=" theme-bg text-light">
       <div className="top-playlist">
         <div
           className="d-md-flex justify-content-start align-items-center px-4"
